@@ -1,0 +1,558 @@
+@layer spx-preamble {
+  :root {
+    --scaling-factor: 100vw;
+    --scrollbar-width: 0px;
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+  }
+
+  @function --spx(--value <number>) returns <length> {
+      result:
+        if(style(--spx-resolver-type: fixed):
+          calc(var(--value) * 1px) ;
+        else:
+          calc(sign(var(--value)) * max(0.5px, abs((var(--value) / var(--spx-ref-width)) * (var(--scaling-factor) - var(--scrollbar-width)))))
+      )
+  }
+}
+
+.comp-mu1byz6d {
+    --preset: horizontalScrollNavbar;
+    --preset-hamburgerMenu-hamburgerCloseButton: baseButton;
+    --preset-hamburgerOpenButton: baseButton
+}
+.comp-mu1byz6d [data-ie-name="hamburgerMenu"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    --padding-top: --spx(30);
+    --boxShadow: none;
+    --background: transparent;
+    --close-button-position: end;
+    --overlay-background: #FFFFFF;
+    --padding-bottom: --spx(30);
+    --border-start-start-radius: --spx(0);
+    --border-end-end-radius: --spx(0);
+    --border-end-start-radius: --spx(0);
+    --menu-position: top;
+    --padding-inline-start: --spx(30);
+    --wrapper-position: end;
+    --border-start-end-radius: --spx(0);
+    --padding-inline-end: --spx(30);
+    --hamburger-wrapper-width: third
+}
+.comp-mu1byz6d [data-ie-name="hamburgerMenu"] [data-ie-name="hamburgerCloseButton"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    border-bottom-width: 0px;
+    border-inline-end-width: 0px;
+    border-bottom: 1px solid rgba(49, 25, 15, 1);
+    border-top-width: 0px;
+    border-inline-start: 1px solid rgba(49, 25, 15, 1);
+    border-top: 1px solid rgba(49, 25, 15, 1);
+    border-inline-end: 1px solid rgba(49, 25, 15, 1);
+    border-inline-start-width: 0px;
+    padding-bottom: --spx(40)
+}
+.comp-mu1byz6d [data-ie-name="hamburgerMenu"] [data-ie-name="hamburgerCloseButton"] [data-ie-name="animatedIcon"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    --fill: #31190F;
+    --size: --spx(28)
+}
+.comp-mu1byz6d [data-ie-name="navbar"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    border-bottom-style: solid;
+    background-color: var(--wst-base-1-color);
+    padding-inline-end: --spx(6);
+    border-bottom-width: --spx(0);
+    border-bottom-color: transparent;
+    border-start-end-radius: --spx(3);
+    box-shadow: none;
+    padding-inline-start: --spx(6);
+    border-inline-end-width: --spx(0);
+    border-top-width: --spx(0);
+    border-inline-start-color: transparent;
+    padding-top: --spx(6);
+    border-start-start-radius: --spx(3);
+    border-inline-start-width: --spx(0);
+    border-top-style: solid;
+    padding-bottom: --spx(6);
+    border-end-start-radius: --spx(3);
+    border-inline-start-style: solid;
+    border-inline-end-style: solid;
+    border-inline-end-color: transparent;
+    border-top-color: transparent;
+    border-end-end-radius: --spx(3);
+    --container-align: end;
+    --menu-items-row-gap: 6px;
+    --vertical-dropdown-display: expandCollapse;
+    --item-divider-color: transparent;
+    --menu-items-column-gap: --spx(0);
+    --item-divider-style: solid;
+    --items-width: fitToText;
+    --item-divider-width: --spx(0)
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="item"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    border-bottom-style: solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    column-gap: --spx(4);
+    padding-inline-end: --spx(10);
+    border-bottom-width: --spx(0);
+    border-bottom-color: transparent;
+    border-start-end-radius: --spx(4);
+    box-shadow: none;
+    padding-inline-start: --spx(10);
+    border-inline-end-width: --spx(0);
+    text-shadow: none;
+    border-top-width: --spx(0);
+    color: #31190F;
+    border-inline-start-color: transparent;
+    padding-top: --spx(4);
+    border-start-start-radius: --spx(4);
+    font: var(--wst-paragraph-2-font);
+    border-inline-start-width: --spx(0);
+    font-family: helvetica-w01-roman;
+    letter-spacing: 0em;
+    border-top-style: solid;
+    padding-bottom: --spx(4);
+    border-end-start-radius: --spx(4);
+    border-inline-start-style: solid;
+    font-size: --spx(16);
+    border-inline-end-style: solid;
+    border-inline-end-color: transparent;
+    border-top-color: transparent;
+    border-end-end-radius: --spx(4);
+    font-weight: 400;
+    --item-icon-size: --spx(8);
+    --item-icon-color: #31190F
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="item"] [data-ie-name="itemLabel"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    text-decoration-line: var(--wst-paragraph-2-text-decoration);
+    text-transform: capitalize;
+    color: var(--wst-paragraph-2-color);
+    font: var(--wst-paragraph-2-font);
+    letter-spacing: var(--wst-paragraph-2-letter-spacing)
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="item"]:hover [data-ie-name="itemLabel"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    text-decoration-line: underline
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="item"][data-state~="selected"] [data-ie-name="itemLabel"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    text-decoration-line: underline
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="dropdown"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    --dropdown-container-border-end-start-radius: --spx(0);
+    --anchor: menuItem;
+    --dropdown-container-border-top-style: solid;
+    --space-above: 5px;
+    --item-position: start;
+    --align: start;
+    --dropdown-container-background: transparent;
+    --dropdown-container-border-top-color: #fff;
+    --dropdown-container-border-bottom-style: solid;
+    --dropdown-container-border-inline-start-color: #fff;
+    --dropdown-menu-item-container-align: start;
+    --dropdown-container-padding-top: --spx(10);
+    --columns-number: 1;
+    --dropdown-container-border-bottom-color: #fff;
+    --dropdown-container-border-bottom-width: 0px;
+    --dropdown-container-border-start-start-radius: --spx(0);
+    --dropdown-container-border-start-end-radius: --spx(0);
+    --dropdown-menu-item-vertical-spacing: 8px;
+    --dropdown-container-border-inline-end-width: 0px;
+    --dropdown-container-padding-inline-end: --spx(10);
+    --dropdown-menu-item-horizontal-spacing: 0px;
+    --dropdown-container-border-inline-start-width: 0px;
+    --items-width: fitToText;
+    --dropdown-container-border-end-end-radius: --spx(0);
+    --dropdown-container-border-inline-end-style: solid;
+    --dropdown-container-border-top-width: 0px;
+    --dropdown-container-border-inline-end-color: #fff;
+    --dropdown-container-padding-inline-start: --spx(11);
+    --dropdown-container-padding-bottom: --spx(6);
+    --dropdown-container-border-inline-start-style: solid
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="dropdown"] [data-ie-name="item"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    border-bottom-style: solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-bottom-width: 0px;
+    border-bottom-color: transparent;
+    border-start-end-radius: --spx(0);
+    border-inline-end-width: 0px;
+    text-shadow: none;
+    border-top-width: 0px;
+    color: #31190F;
+    border-inline-start-color: transparent;
+    border-start-start-radius: --spx(0);
+    font: var(--wst-paragraph-2-font);
+    border-inline-start-width: 0px;
+    font-family: helvetica-w01-roman;
+    letter-spacing: 0em;
+    border-top-style: solid;
+    border-end-start-radius: --spx(0);
+    border-inline-start-style: solid;
+    font-size: --spx(16);
+    border-inline-end-style: solid;
+    border-inline-end-color: transparent;
+    border-top-color: transparent;
+    border-end-end-radius: --spx(0);
+    font-weight: 400;
+    --dropdown-menu-item-padding-top: --spx(0);
+    --dropdown-menu-item-padding-bottom: --spx(0);
+    --dropdown-menu-item-padding-inline-end: --spx(0);
+    --dropdown-menu-item-padding-inline-start: --spx(0)
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="dropdown"] [data-ie-name="subItem"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    border-bottom-style: solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-bottom-width: 0px;
+    border-bottom-color: transparent;
+    border-start-end-radius: --spx(0);
+    box-shadow: none;
+    border-inline-end-width: 0px;
+    border-top-width: 0px;
+    color: #31190F;
+    border-inline-start-color: transparent;
+    border-start-start-radius: --spx(0);
+    font: var(--wst-paragraph-2-font);
+    border-inline-start-width: 0px;
+    font-family: helvetica-w01-light;
+    letter-spacing: 0em;
+    border-top-style: solid;
+    border-end-start-radius: --spx(0);
+    border-inline-start-style: solid;
+    font-size: --spx(16);
+    border-inline-end-style: solid;
+    border-inline-end-color: transparent;
+    border-top-color: transparent;
+    border-end-end-radius: --spx(0);
+    font-weight: 400
+}
+.comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="scrollButton"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    border-bottom-style: solid;
+    background-color: var(--wst-base-1-color);
+    border-bottom-width: --spx(1);
+    border-bottom-color: transparent;
+    border-start-end-radius: --spx(4);
+    box-shadow: none;
+    background-image: none;
+    border-inline-end-width: --spx(1);
+    border-top-width: --spx(1);
+    border-inline-start-color: transparent;
+    border-start-start-radius: --spx(4);
+    border-inline-start-width: --spx(1);
+    border-top-style: solid;
+    border-end-start-radius: --spx(4);
+    border-inline-start-style: solid;
+    border-inline-end-style: solid;
+    border-inline-end-color: transparent;
+    border-top-color: transparent;
+    border-end-end-radius: --spx(4);
+    --scroll-button-icon-color: var(--wst-base-2-color);
+    --scroll-button-icon-size: --spx(12);
+    --scroll-button-padding-inline-end: --spx(8);
+    --scroll-button-padding-inline-start: --spx(8)
+}
+.comp-mu1byz6d [data-ie-name="hamburgerOpenButton"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    column-gap: 0px;
+    padding-inline-end: --spx(0);
+    border-bottom-width: 0px;
+    border-bottom-color: transparent;
+    padding-inline-start: --spx(0);
+    border-inline-end-width: 0px;
+    border-bottom: 1px solid rgba(49, 25, 15, 1);
+    border-top-width: 0px;
+    border-inline-start: 1px solid rgba(49, 25, 15, 1);
+    border-top: 1px solid rgba(49, 25, 15, 1);
+    row-gap: 0px;
+    border-inline-end: 1px solid rgba(49, 25, 15, 1);
+    border-inline-start-color: transparent;
+    padding-top: --spx(0);
+    border-inline-start-width: 0px;
+    padding-bottom: --spx(0);
+    border-inline-end-color: transparent;
+    border-top-color: transparent
+}
+.comp-mu1byz6d [data-ie-name="hamburgerOpenButton"] [data-ie-name="label"] {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    text-transform: none;
+    color: transparent;
+    text-align: start;
+    font: var(--wst-paragraph-2-font);
+    font-family: wix-madefor-text-v2;
+    letter-spacing: 0em;
+    font-size: --spx(14);
+    font-weight: 400
+}
+.comp-mlj8v94e {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    --backgroundMediaOpacity: 1;
+    --backgroundColorOpacity: 1;
+    --backgroundOverlayOpacity: 1;
+    --backgroundColor: var(--wst-base-1-color)
+}
+@media (max-width: 1023px) {
+    .comp-mu1byz6d {
+        --preset: hamburgerMenu
+    }
+    .comp-mu1byz6d [data-ie-name="hamburgerMenu"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        --padding-top: --spx(30);
+        --padding-bottom: --spx(30);
+        --border-start-start-radius: --spx(0);
+        --border-end-end-radius: --spx(0);
+        --border-end-start-radius: --spx(0);
+        --padding-inline-start: --spx(30);
+        --border-start-end-radius: --spx(0);
+        --padding-inline-end: --spx(30);
+        --hamburger-wrapper-width: full
+    }
+    .comp-mu1byz6d [data-ie-name="hamburgerMenu"] [data-ie-name="hamburgerCloseButton"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        background-color: transparent;
+        column-gap: --spx(0);
+        padding-inline-end: --spx(0);
+        border-bottom-width: --spx(0);
+        border-start-end-radius: --spx(0);
+        box-shadow: none;
+        padding-inline-start: --spx(0);
+        border-inline-end-width: --spx(0);
+        border-bottom: --spx(1) solid rgba(49, 25, 15, 1);
+        border-top-width: --spx(0);
+        border-inline-start: --spx(1) solid rgba(49, 25, 15, 1);
+        border-top: --spx(1) solid rgba(49, 25, 15, 1);
+        row-gap: --spx(0);
+        border-inline-end: --spx(1) solid rgba(49, 25, 15, 1);
+        padding-top: --spx(0);
+        border-start-start-radius: --spx(0);
+        border-inline-start-width: --spx(0);
+        padding-bottom: --spx(0);
+        border-end-start-radius: --spx(0);
+        border-end-end-radius: --spx(0);
+        --content-horizontal-alignment: center;
+        --icon-position: row-reverse
+    }
+    .comp-mu1byz6d [data-ie-name="hamburgerMenu"] [data-ie-name="hamburgerCloseButton"] [data-ie-name="label"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        color: #000;
+        text-align: start;
+        font: var(--wst-paragraph-2-font);
+        font-family: wix-madefor-text-v2;
+        letter-spacing: 0em;
+        line-height: 1em;
+        font-size: --spx(14);
+        font-weight: 400;
+        --text-shadow: none
+    }
+    .comp-mu1byz6d [data-ie-name="hamburgerMenu"] [data-ie-name="hamburgerCloseButton"] [data-ie-name="animatedIcon"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        --fill: var(--wst-base-2-color);
+        --size: --spx(20)
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        background-color: transparent;
+        padding-inline-end: --spx(6);
+        border-bottom-width: --spx(0);
+        border-start-end-radius: --spx(3);
+        box-shadow: none;
+        padding-inline-start: --spx(6);
+        border-inline-end-width: --spx(0);
+        border-top-width: --spx(0);
+        padding-top: --spx(6);
+        border-start-start-radius: --spx(3);
+        border-inline-start-width: --spx(0);
+        padding-bottom: --spx(6);
+        border-end-start-radius: --spx(3);
+        border-end-end-radius: --spx(3);
+        --menu-items-row-gap: --spx(6);
+        --item-divider-width: --spx(0);
+        --vertical-dropdown-display: alwaysOpen;
+        --container-align: center
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="item"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        border-bottom-style: solid;
+        background-color: transparent;
+        column-gap: --spx(4);
+        padding-inline-end: --spx(10);
+        border-bottom-width: --spx(0);
+        border-bottom-color: #757575;
+        border-start-end-radius: --spx(4);
+        box-shadow: none;
+        padding-inline-start: --spx(10);
+        border-inline-end-width: --spx(0);
+        text-shadow: none;
+        border-top-width: --spx(0);
+        color: #31190F;
+        border-inline-start-color: #757575;
+        padding-top: --spx(4);
+        justify-content: start;
+        border-start-start-radius: --spx(4);
+        font: var(--wst-paragraph-2-font);
+        border-inline-start-width: --spx(0);
+        font-family: helvetica-w01-roman;
+        border-top-style: solid;
+        padding-bottom: --spx(4);
+        border-end-start-radius: --spx(4);
+        border-inline-start-style: solid;
+        font-size: --spx(16);
+        border-inline-end-style: solid;
+        border-inline-end-color: #757575;
+        border-top-color: #757575;
+        border-end-end-radius: --spx(4);
+        font-weight: 400;
+        --item-icon-size: --spx(8);
+        --item-icon-color: #31190F
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="item"] [data-ie-name="itemLabel"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        font-size: --spx(14)
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="dropdown"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        --dropdown-container-border-end-start-radius: --spx(0);
+        --space-above: 10px;
+        --dropdown-container-padding-top: --spx(10);
+        --dropdown-container-border-start-start-radius: --spx(0);
+        --dropdown-container-border-start-end-radius: --spx(0);
+        --dropdown-menu-item-vertical-spacing: 11px;
+        --dropdown-container-padding-inline-end: --spx(10);
+        --dropdown-container-border-end-end-radius: --spx(0);
+        --dropdown-container-padding-inline-start: --spx(11);
+        --dropdown-container-padding-bottom: --spx(6)
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="dropdown"] [data-ie-name="item"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        border-bottom-style: solid;
+        background-color: transparent;
+        border-bottom-width: 0px;
+        border-bottom-color: #757575;
+        border-start-end-radius: --spx(0);
+        border-inline-end-width: 0px;
+        border-top-width: 0px;
+        color: #31190F;
+        border-inline-start-color: #757575;
+        border-start-start-radius: --spx(0);
+        font: var(--wst-paragraph-2-font);
+        border-inline-start-width: 0px;
+        font-family: helvetica-w01-roman;
+        border-top-style: solid;
+        border-end-start-radius: --spx(0);
+        border-inline-start-style: solid;
+        font-size: --spx(16);
+        border-inline-end-style: solid;
+        border-inline-end-color: #757575;
+        border-top-color: #757575;
+        border-end-end-radius: --spx(0);
+        font-weight: 400;
+        --dropdown-menu-item-padding-top: --spx(0);
+        --dropdown-menu-item-padding-bottom: --spx(0);
+        --dropdown-menu-item-padding-inline-end: --spx(0);
+        --dropdown-menu-item-padding-inline-start: --spx(0)
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="dropdown"] [data-ie-name="subItem"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        padding-inline-end: --spx(0);
+        border-start-end-radius: --spx(0);
+        padding-inline-start: --spx(0);
+        font-style: normal;
+        color: #31190F;
+        padding-top: --spx(0);
+        border-start-start-radius: --spx(0);
+        font-family: helvetica-w01-roman;
+        padding-bottom: --spx(0);
+        border-end-start-radius: --spx(0);
+        font-size: --spx(16);
+        border-end-end-radius: --spx(0);
+        font-weight: 400
+    }
+    .comp-mu1byz6d [data-ie-name="navbar"] [data-ie-name="scrollButton"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        border-bottom-width: --spx(1);
+        border-start-end-radius: --spx(4);
+        border-inline-end-width: --spx(1);
+        border-top-width: --spx(1);
+        border-start-start-radius: --spx(4);
+        border-inline-start-width: --spx(1);
+        border-end-start-radius: --spx(4);
+        border-end-end-radius: --spx(4);
+        --scroll-button-icon-size: --spx(12);
+        --scroll-button-padding-inline-end: --spx(8);
+        --scroll-button-padding-inline-start: --spx(8);
+        --scroll-button-icon-color: #31190F
+    }
+    .comp-mu1byz6d [data-ie-name="hamburgerOpenButton"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        background-color: transparent;
+        column-gap: --spx(0);
+        padding-inline-end: --spx(0);
+        border-bottom-width: --spx(0);
+        border-start-end-radius: --spx(0);
+        box-shadow: none;
+        padding-inline-start: --spx(0);
+        border-inline-end-width: --spx(0);
+        border-bottom: --spx(1) solid rgba(49, 25, 15, 1);
+        border-top-width: --spx(0);
+        border-inline-start: --spx(1) solid rgba(49, 25, 15, 1);
+        border-top: --spx(1) solid rgba(49, 25, 15, 1);
+        row-gap: --spx(0);
+        border-inline-end: --spx(1) solid rgba(49, 25, 15, 1);
+        padding-top: --spx(0);
+        border-start-start-radius: --spx(0);
+        border-inline-start-width: --spx(0);
+        padding-bottom: --spx(0);
+        border-end-start-radius: --spx(0);
+        border-end-end-radius: --spx(0);
+        --icon-position: row-reverse;
+        --content-horizontal-alignment: center
+    }
+    .comp-mu1byz6d [data-ie-name="hamburgerOpenButton"] [data-ie-name="label"] {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        text-transform: none;
+        color: #000;
+        font: var(--wst-paragraph-2-font);
+        font-family: wix-madefor-text-v2;
+        letter-spacing: 0em;
+        line-height: 1em;
+        font-size: --spx(14);
+        font-weight: 400;
+        --text-shadow: none
+    }
+}

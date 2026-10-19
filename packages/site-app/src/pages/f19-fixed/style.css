@@ -1,0 +1,23 @@
+@layer spx-preamble {
+  :root {
+    --scaling-factor: 100vw;
+    --scrollbar-width: 0px;
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+  }
+
+  @function --spx(--value <number>) returns <length> {
+      result:
+        if(style(--spx-resolver-type: fixed):
+          calc(var(--value) * 1px) ;
+        else:
+          calc(sign(var(--value)) * max(0.5px, abs((var(--value) / var(--spx-ref-width)) * (var(--scaling-factor) - var(--scrollbar-width)))))
+      )
+  }
+}
+
+.comp-mv9dqmpg {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    --blend-mode: overlay
+}

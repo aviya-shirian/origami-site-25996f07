@@ -1,0 +1,519 @@
+{
+  "wixGalleriesElements": {
+    "appDefId": "b2e8b4cb-1799-4b3c-bace-d55b503f7334",
+    "appVersion": "5.141.0",
+    "components": {
+      "Gallery": {
+        "componentId": "b417272b-02bf-4a4c-b502-2cb499b9a797",
+        "version": "6955",
+        "description": "A simple gallery component for images and videos",
+        "displayName": "Gallery",
+        "archetype": "Gallery"
+      },
+      "NavigationBar": {
+        "componentId": "9233819a-5ae4-4fbc-92b4-d266ff9f72cc",
+        "version": "382",
+        "description": "Thumbnail navigation for selecting gallery items",
+        "displayName": "Navigation Bar",
+        "archetype": "Gallery"
+      },
+      "MediaNavBar": {
+        "componentId": "e04285a7-8ab8-432a-a200-03b34e660230",
+        "version": "353",
+        "description": "Navigation bar",
+        "displayName": "Navigation bar",
+        "archetype": "Gallery"
+      },
+      "ExpandedGallery": {
+        "componentId": "5dc75766-2b3c-4fa5-8145-89b32e86d2af",
+        "version": "4494",
+        "description": "Fullscreen expand mode for gallery media",
+        "displayName": "Expanded Gallery",
+        "archetype": "Gallery"
+      },
+      "VisualMediaElement": {
+        "componentId": "918e8820-9c20-4c42-8291-caa38aa5dfdc",
+        "version": "4",
+        "description": "A minimal element with a single visualMedia data binding",
+        "displayName": "Visual Media Element"
+      },
+      "FastGallery": {
+        "componentId": "48dd56d0-2fd6-4aba-a77c-89f9c446d783",
+        "version": "6946",
+        "description": "showcases multiple images in a customizable gallery that supports multiple layouts and design options",
+        "displayName": "Wix Gallery",
+        "archetype": "Gallery"
+      },
+      "NavBarDummy": {
+        "componentId": "21cd8aa2-7d8c-4605-9661-a26bfd2b3d4d",
+        "version": "308",
+        "description": "Nav Bar Dummy component",
+        "displayName": "Nav Bar Dummy",
+        "archetype": "Container"
+      },
+      "ThumbnailsExpandedGallery": {
+        "componentId": "cb9c597c-04d9-4469-b379-1f1114acf50c",
+        "version": "271",
+        "description": "Fullscreen expand mode for the thumbnails gallery media",
+        "displayName": "Expanded Gallery (ThumbnailsGallery)",
+        "archetype": "Gallery"
+      },
+      "ThumbnailsGalleryContainer": {
+        "componentId": "7ac4ed12-fc09-4566-9b19-5a457934b253",
+        "version": "382",
+        "description": "Gallery with synchronized thumbnail navigation",
+        "displayName": "Thumbnails Gallery",
+        "archetype": "Gallery"
+      },
+      "MediaElement": {
+        "componentId": "493005a7-a5c3-421d-83e5-f92b5b77e5f0",
+        "version": "6402",
+        "description": "A media element component with image and overlay",
+        "displayName": "Media Element"
+      }
+    }
+  },
+  "wixSystemElements": {
+    "appDefId": "88110a9d-ba44-450e-bcf9-17058af00b76",
+    "appVersion": "1.334.0",
+    "components": {
+      "TemplateContainer": {
+        "componentId": "55b5c6bc-db54-4f17-8fc3-621cc535a8ed",
+        "version": "16653",
+        "description": "Use a dynamic repeater to render lists of items from a dataset or API, binding each field (text, image, button) to data. The layout is fixed once, and the repeater clones it for all records, auto-updating when the data changes—perfect for scalable, data-driven UI.",
+        "displayName": "Template Container",
+        "archetype": "Container"
+      },
+      "Background": {
+        "componentId": "81f3000f-f78a-459d-a044-59bd7a96092a",
+        "version": "18195",
+        "description": "Displays a background layer, such as an image, color, or video within section or container.",
+        "displayName": "Background"
+      },
+      "SystemHeaderSlot": {
+        "componentId": "0cce5969-20e3-4849-82c2-9db1d8a2a8e4",
+        "version": "10609",
+        "description": "This slot should hold a stack container for app header plugins",
+        "displayName": "SystemHeaderSlot"
+      },
+      "PopupContainer": {
+        "componentId": "02905e25-2a96-4e68-802e-b494fe008110",
+        "version": "18165",
+        "description": "Popup container where you can add any components",
+        "displayName": "Popup"
+      },
+      "BackgroundShapeDivider": {
+        "componentId": "3f4bd8f4-7124-4b69-a189-a03bd8ea7adf",
+        "version": "18181",
+        "description": "A decorative component that creates stylized SVG shape dividers between page sections",
+        "displayName": "ShapeDividerNg"
+      },
+      "ContainerTest": {
+        "componentId": "8f3e7d12-9a5b-4c23-b6e8-d94f2c1a0e5d",
+        "version": "18195",
+        "description": "Container Test",
+        "displayName": "Container Test"
+      },
+      "DraftZoneContainer": {
+        "componentId": "c1eef941-1d5b-4fa0-adbd-a8120a7dc446",
+        "version": "6036",
+        "description": "A draft zone box that renders a container of child elements. It is used for draft zone feature",
+        "displayName": "Draft Zone Container",
+        "archetype": "Container"
+      },
+      "InternalContainer": {
+        "componentId": "b7d85f9c-3e12-4a96-8d47-9f2c6b4d1e3a",
+        "version": "18198",
+        "description": "Internal system container for wrapping and structuring content",
+        "displayName": "Container",
+        "archetype": "Container"
+      }
+    }
+  },
+  "wixEditorElements": {
+    "appDefId": "6a30caff-5dc3-4e4c-ba70-19db988f5830",
+    "appVersion": "1.728.0",
+    "components": {
+      "TextEffectsBauhaus": {
+        "componentId": "8c22adab-12f9-43ee-80c8-6f5dbe19eabe",
+        "version": "33282",
+        "description": "Text Effects Bauhaus",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "HTMLComponent": {
+        "componentId": "e81a1c4b-8b8c-4a7e-9f2d-1a3b4c5d6e7f",
+        "version": "33689",
+        "description": "HTMLComponent",
+        "displayName": "HTML Element",
+        "archetype": "Frame"
+      },
+      "AnimatedIcon": {
+        "componentId": "6f9890ba-d8b7-4b76-a6f4-de41bd150b68",
+        "version": "33864",
+        "description": "Add interactive icons that animate on hover to make your design more engaging and delightful",
+        "displayName": "Animated Icon",
+        "archetype": "Image"
+      },
+      "CollapsibleText": {
+        "componentId": "1392cc2d-20e7-411a-8b60-6e0af55b8ece",
+        "version": "33774",
+        "description": "Let visitors explore content at their own pace with collapsible text that reduces page clutter.",
+        "displayName": "Collapsible Text",
+        "archetype": "Text"
+      },
+      "TextMarquee": {
+        "componentId": "64d7d13f-8f09-47e3-9eea-9c02e3f602c2",
+        "version": "33555",
+        "description": "Text Marquee",
+        "displayName": "Running Text",
+        "archetype": "Text"
+      },
+      "Line": {
+        "componentId": "d2ff230a-71c3-4e58-8742-d68f69a2de0b",
+        "version": "33797",
+        "description": "Organize content and create visual separation with styled lines throughout your site",
+        "displayName": "Line",
+        "archetype": "Line"
+      },
+      "SocialBar": {
+        "componentId": "241afef1-74bd-4a10-843f-ac4928c25882",
+        "version": "33764",
+        "description": "Grow your online presence and drive social engagement across platforms with social links.",
+        "displayName": "Social Bar",
+        "archetype": "Social"
+      },
+      "HeadingTextBlock": {
+        "componentId": "83aedbba-6ee5-4358-8f2b-02683c4e3537",
+        "version": "2901",
+        "description": "Semantic heading tag wrapping heading, title, subtitle, and caption in one tag",
+        "displayName": "Heading Text Block",
+        "archetype": "Text"
+      },
+      "TextEffects3d": {
+        "componentId": "90c63713-61c9-4284-8e13-a4a2f1b7559d",
+        "version": "33290",
+        "description": "Text Effect - 3D",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "LegacyMultiStateBox": {
+        "componentId": "2feb9967-09c9-49ef-9ded-0e515e5c5873",
+        "version": "33685",
+        "description": "LegacyMultiStateBox",
+        "displayName": "MultiStateBox"
+      },
+      "Menu": {
+        "componentId": "3f27c3f4-5a2b-4b2c-9b14-05d9c0c6d5ec",
+        "version": "33845",
+        "description": "Displays a navigational menu, allowing visitors to access different pages or sections of a site",
+        "displayName": "Menu",
+        "archetype": "Menu"
+      },
+      "SvgImage": {
+        "componentId": "4dbf752a-8a67-4149-87e7-6132bc25d3c2",
+        "version": "33780",
+        "description": "Displays scalable vector graphics for decorative or illustrative purposes on a page",
+        "displayName": "Vector Art",
+        "archetype": "Image"
+      },
+      "Breadcrumbs": {
+        "componentId": "992fd74f-46fe-4cc3-b803-d70f75a11fbc",
+        "version": "21543",
+        "description": "A navigation component that displays the user's location within a site's hierarchy as a trail of links, allowing navigation back to any ancestor page.",
+        "displayName": "Breadcrumbs",
+        "archetype": "Breadcrumbs"
+      },
+      "LegacyAppWidget": {
+        "componentId": "469ad5da-7dec-4577-8640-3d9220917692",
+        "version": "33673",
+        "description": "LegacyAppWidget",
+        "displayName": "AppWidget"
+      },
+      "TextEffectsGlass": {
+        "componentId": "d578a270-a696-4e0f-a876-bd47dc8c62b3",
+        "version": "33290",
+        "description": "Text Effect - Glass",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "ImageReveal": {
+        "componentId": "9cd0f834-3ca6-4a0d-9361-510cadb42471",
+        "version": "2750",
+        "description": "A before and after image comparison slider with a draggable divider",
+        "displayName": "Image Reveal",
+        "archetype": "Slider"
+      },
+      "GoogleMap": {
+        "componentId": "bf8a38af-5784-47d5-92d3-3627a6a60bc6",
+        "version": "33757",
+        "description": "Embeds an interactive Google Map, allowing visitors to view locations",
+        "displayName": "Google Maps",
+        "archetype": "Map"
+      },
+      "Logo": {
+        "componentId": "4190f51c-3836-49f6-8114-96219c165b30",
+        "version": "33777",
+        "description": "Displays a logo image to represent a brand or business on a page",
+        "displayName": "Logo",
+        "archetype": "Logo"
+      },
+      "AccordionComponent": {
+        "componentId": "6e420db9-bc16-44be-b5bf-cc8f348ebc07",
+        "version": "33335",
+        "description": "AccordionContainer",
+        "displayName": "Accordion",
+        "archetype": "Accordion"
+      },
+      "ShareButtons": {
+        "componentId": "b1e2c3d4-5f6a-7b8c-9d0e-1f2a3b4c5d6e",
+        "version": "33458",
+        "description": "Increase your reach by letting visitors share your site with ease across channels.",
+        "displayName": "Share Buttons",
+        "archetype": "Social"
+      },
+      "Repeater": {
+        "componentId": "3f08612b-67ee-4b00-9340-9323e660aa60",
+        "version": "8467",
+        "description": "A container component that renders a collection of items from a data source using a repeated template layout",
+        "displayName": "Repeater",
+        "archetype": "Container"
+      },
+      "Button": {
+        "componentId": "4190f51c-3836-49f6-8114-96219c165b29",
+        "version": "34045",
+        "description": "Guide visitors through your site and drive important actions using customizable button elements.",
+        "displayName": "Button",
+        "archetype": "Button"
+      },
+      "BoxContainer": {
+        "componentId": "1f0108be-06bb-4a81-9c55-a1cbd223926c",
+        "version": "33756",
+        "description": "A flexible container for grouping and organizing other elements or components on a page",
+        "displayName": "Container",
+        "archetype": "Container"
+      },
+      "FacebookPlayer": {
+        "componentId": "ac17f3cb-c4f8-4f35-be4f-81ef456cce7e",
+        "version": "33660",
+        "description": "Embeds and plays Facebook videos or stories directly on a web page",
+        "displayName": "Facebook Player"
+      },
+      "SlotsPlaceholder": {
+        "componentId": "5df938dd-345f-49bc-9623-aff6c9945efb",
+        "version": "33707",
+        "description": "SlotsPlaceholder",
+        "displayName": "SlotsPlaceholder"
+      },
+      "TextEffectsGlitch": {
+        "componentId": "1e3b6d9a-f5c2-4a8e-9c4b-2d7f8a1e5c3b",
+        "version": "33290",
+        "description": "Text Effects Glitch",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "TextEffectsLetterPress": {
+        "componentId": "9d2a5c8f-e4b1-4f6d-b7a3-8e1c9f5d2b4a",
+        "version": "33290",
+        "description": "Text Effects Letter Press",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "TextEffectsMatrix": {
+        "componentId": "45e26ded-fab2-4208-b6ae-3514ddea4cb0",
+        "version": "33290",
+        "description": "Text Effects Matrix",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "ProgressBar": {
+        "componentId": "241afef1-74bd-4a10-843f-ac4928c25822",
+        "version": "33490",
+        "description": "Displays a progress bar to visualize completion status or loading progress",
+        "displayName": "Progress Bar",
+        "archetype": "ProgressBar"
+      },
+      "TextEffectsNeonSign": {
+        "componentId": "8c1f4b9e-d3a7-4e2c-a5b8-7d9f1e6c4a2b",
+        "version": "33290",
+        "description": "Text Effects Neon Sign",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "MarkdownBlock": {
+        "componentId": "09163c09-57cd-4241-bde6-b9e602fedbd8",
+        "version": "3104",
+        "description": "Renders Markdown (CommonMark + GFM) as styled HTML, with a closed set of visual themes",
+        "displayName": "Markdown Block",
+        "archetype": "Text"
+      },
+      "TransparentVideo": {
+        "componentId": "a5d9e3b7-1f62-4c8a-b0d4-9e3f7a2c6b11",
+        "version": "19310",
+        "description": "Allows users to display transparent videos",
+        "displayName": "Transparent Video",
+        "archetype": "Video"
+      },
+      "InstagramPlayer": {
+        "componentId": "57cac74a-f0dc-416b-9f09-0c38799c3402",
+        "version": "33660",
+        "description": "Embeds and plays Instagram videos directly on a web page",
+        "displayName": "Instagram Player",
+        "archetype": "Social"
+      },
+      "LegacyContainer": {
+        "componentId": "4489ce49-e5d8-4aa8-9762-db567ee4eef9",
+        "version": "33685",
+        "description": "LegacyContainer",
+        "displayName": "Container"
+      },
+      "MultiStateBox": {
+        "componentId": "32d6f6fe-72ef-4490-82aa-d3b13cce6ef1",
+        "version": "10425",
+        "description": "A component that holds multiple states (each state is a container), displaying only one state at a time",
+        "displayName": "Multi-State Box",
+        "archetype": "Container"
+      },
+      "SnapchatPlayer": {
+        "componentId": "fe00a488-978a-440c-aead-b43ab9795ad2",
+        "version": "33659",
+        "description": "Embeds and plays Snapchat videos or stories directly on a web page",
+        "displayName": "Snapchat Player",
+        "archetype": "Social"
+      },
+      "TikTokPlayer": {
+        "componentId": "1bc7cd37-5d90-48a6-a2c1-de94f77d4fd6",
+        "version": "33659",
+        "description": "Displays a TikTok video player, allowing users to watch and share short-form videos",
+        "displayName": "TikTok Player",
+        "archetype": "Social"
+      },
+      "Slideshow": {
+        "componentId": "4bd21d9e-bbe1-4097-a519-9561b42f3578",
+        "version": "33795",
+        "description": "A carousel of customizable slides, where each slide is a container for any content from the Add Panel, with controls to navigate between slides",
+        "displayName": "Slideshow",
+        "archetype": "Carousel"
+      },
+      "Lottie": {
+        "componentId": "13165477-8205-4050-b078-424a1479159e",
+        "version": "29811",
+        "description": "A component that displays and plays Lottie animations (JSON-based vector animations) with configurable playback, looping, speed, and optional on-stage play/pause control.",
+        "displayName": "Lottie",
+        "archetype": "AnimatedGraphic"
+      },
+      "VimeoPlayer": {
+        "componentId": "8ec522c3-d8dd-43d8-9f07-1c4c1bb09d80",
+        "version": "33659",
+        "description": "Embeds Vimeo videos, allowing visitors to watch them directly on a web page",
+        "displayName": "Vimeo Player",
+        "archetype": "Social"
+      },
+      "TextEffectsNoisy": {
+        "componentId": "3f9c1e82-a7d6-4b5e-8c2a-9d4f6e3b7a1c",
+        "version": "33290",
+        "description": "Text Effects Noisy",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "TextEffectsOutlineOut": {
+        "componentId": "6b9e3a8d-f2c4-4d7b-9e1a-3c5f8b2d6a4e",
+        "version": "33290",
+        "description": "Text Effects Outline Out",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "AudioPlayer": {
+        "componentId": "4cc1e6b6-a52c-4aa1-b464-10a0e49b217f",
+        "version": "19580",
+        "description": "A component that plays a single audio file with customizable playback controls, allowing users to play, pause, adjust volume, and seek through audio content",
+        "displayName": "Audio Player",
+        "archetype": "Audio"
+      },
+      "YoutubePlayer": {
+        "componentId": "4190f51c-3836-49f6-8114-96219c165b20",
+        "version": "33657",
+        "description": "plays youtube videos directly on a web page",
+        "displayName": "Youtube Player",
+        "archetype": "Social"
+      },
+      "SiteLogo": {
+        "componentId": "c3993ba8-0f63-4668-b729-47833b7e8fcb",
+        "version": "13178",
+        "description": "Displays a logo (SVG or raster image) to represent a brand or business on a page",
+        "displayName": "Site Logo",
+        "archetype": "Logo"
+      },
+      "TextEffectsRetro": {
+        "componentId": "2f4c7e1a-d8b3-4c5f-a9d2-6b8e3f1a7c4d",
+        "version": "33290",
+        "description": "Text Effects Retro",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "VideoUpload": {
+        "componentId": "8441a520-52ed-4c32-9b9d-0aa8c2604b01",
+        "version": "33767",
+        "description": "Native video player, allows users to upload and play video files",
+        "displayName": "Video Player",
+        "archetype": "Video"
+      },
+      "TestComp": {
+        "componentId": "cb6af77a-b0d6-424f-ba09-d4944e1e35c2",
+        "version": "33769",
+        "description": "Test for Storybook",
+        "displayName": "Test Card",
+        "archetype": "Text"
+      },
+      "TextEffectsShook": {
+        "componentId": "edce3e51-3d93-4b6a-abd5-778f5071b73d",
+        "version": "33292",
+        "description": "Text Effect - Shook",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "HipaaIcon": {
+        "componentId": "c82c4153-edcc-4b6f-8c99-8d021e3bf5ab",
+        "version": "13406",
+        "description": "Displays a HIPAA certification widget. Shows activation instructions when not compliant, or a HIPAA Compliant badge when activated.",
+        "displayName": "HIPAA Certification",
+        "archetype": "Frame"
+      },
+      "TextEffectsSticker": {
+        "componentId": "5a8d2f7c-e1b3-4c9a-8d6e-2f4b7a9c1e3d",
+        "version": "33290",
+        "description": "Text Effects Sticker",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "TabsContainer": {
+        "componentId": "dee6ace1-7a56-46d6-90f2-4338879b00b5",
+        "version": "28140",
+        "description": "A tabs component that allows you to display content in a tabbed interface.",
+        "displayName": "Tabs",
+        "archetype": "Tabs"
+      },
+      "WRichText": {
+        "componentId": "4220f51c-7462-49f6-7352-14219c165b28",
+        "version": "33778",
+        "description": "Displays and formats rich text content, supporting various styles, links, and formatting options",
+        "displayName": "Text",
+        "archetype": "RichTextEditor"
+      },
+      "TextEffectsStriped": {
+        "componentId": "7e2b4a91-c5d8-4f3e-9a6b-1d8e7f2c3a4b",
+        "version": "33286",
+        "description": "Text Effects Striped",
+        "displayName": "Text Effects",
+        "archetype": "Text"
+      },
+      "Image": {
+        "componentId": "0bfa7aab-081b-431b-adb2-1b1062e8f21a",
+        "version": "33810",
+        "description": "A fundamental component for displaying image files",
+        "displayName": "Image",
+        "archetype": "Image"
+      }
+    }
+  }
+}

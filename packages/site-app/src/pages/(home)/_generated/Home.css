@@ -1,0 +1,6 @@
+@import '@origami-wrappers/wixEditorElements/image/css';
+@import '@wix/thunderbolt-common-css/index.global.css';
+@import '@wix/thunderbolt-common-css/viewer.global.css';
+@import '../../../global/themes/theme.css';
+@import '../layout.css';
+@import '../style.css';

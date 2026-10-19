@@ -1,0 +1,41 @@
+@layer spx-preamble {
+  :root {
+    --scaling-factor: 100vw;
+    --scrollbar-width: 0px;
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+  }
+
+  @function --spx(--value <number>) returns <length> {
+      result:
+        if(style(--spx-resolver-type: fixed):
+          calc(var(--value) * 1px) ;
+        else:
+          calc(sign(var(--value)) * max(0.5px, abs((var(--value) / var(--spx-ref-width)) * (var(--scaling-factor) - var(--scrollbar-width)))))
+      )
+  }
+}
+
+.comp-mu1b192l {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    text-decoration-line: var(--wst-paragraph-3-text-decoration);
+    color: var(--wst-paragraph-3-color);
+    text-align: center;
+    font: var(--wst-paragraph-3-font);
+    letter-spacing: var(--wst-paragraph-3-letter-spacing);
+    mix-blend-mode: normal
+}
+.comp-mdr17w8k {
+    --spx-ref-width: 1265;
+    --spx-resolver-type: scale;
+    --backgroundColor: var(--wst-base-1-color);
+    --backgroundImage: none
+}
+@media (max-width: 1023px) {
+    .comp-mu1b192l {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        text-align: center
+    }
+}

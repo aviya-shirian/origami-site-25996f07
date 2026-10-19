@@ -1,0 +1,486 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                }
+            },
+            "applications": {
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.Image": [
+                        "comp-mv9dqmpg",
+                        "comp-mv9dqmrr",
+                        "comp-mv9dqmsj",
+                        "comp-mv9dqmt31",
+                        "comp-mv9dqmwc"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AAMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQQDAQABAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgACAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "x532b": {
+            "behaviors": {
+                "type": "ObsoleteBehaviorsList",
+                "items": "[]"
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 1478.0625,
+                "isFixedPosition": false,
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "style": {
+                "variants": [],
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "properties": {
+                            "alpha-bg": "1",
+                            "bg": "transparent"
+                        },
+                        "propertiesSource": {
+                            "bg": "value",
+                            "alpha-bg": "value"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "mobile.core.components.Page",
+                    "pageId": "",
+                    "spx": {
+                        "refWidth": 1280,
+                        "resolverType": "scale"
+                    },
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.page.ResponsivePageWithColorBG"
+                }
+            }
+        },
+        "comp-mv9dqmpg": {
+            "effects": {
+                "id": "effects-mv9dqmpn",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "FloatIn",
+                        "id": "effects-mv9dqmpn1",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 1200,
+                                "delay": 200,
+                                "id": "effects-mv9dqmpn3",
+                                "fill": "backwards",
+                                "allowReplay": "always",
+                                "namedEffect": {
+                                    "type": "FloatIn",
+                                    "direction": "bottom",
+                                    "id": "effects-mv9dqmpn4"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ]
+            },
+            "measurements": {
+                "x": 833,
+                "y": 0,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq6cvv",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9dqmqp",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "once": true,
+                                    "effect": "#effects-mv9dqmpn1",
+                                    "id": "reactions-mv9dqmqp1",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9dqmph"
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "default": {
+                    "id": "style-mve0g07w",
+                    "type": "wixEditorElements.Image.Style"
+                },
+                "variants": []
+            },
+            "triggers": {
+                "id": "triggers-mv9dqmra",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "params": {
+                            "threshold": 0.15
+                        },
+                        "componentId": "comp-mv9dqmpg",
+                        "id": "variants-mv9dqmph",
+                        "type": "Trigger",
+                        "trigger": "viewport-enter"
+                    }
+                ]
+            }
+        },
+        "comp-mv9dqmrr": {
+            "measurements": {
+                "x": 833,
+                "y": 307.015625,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq6cvw",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mv9dqmsj": {
+            "effects": {
+                "values": [
+                    {
+                        "name": "ParallaxScroll",
+                        "id": "effects-mv9nzv8v",
+                        "type": "ScrubAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "endOffset": {
+                                    "name": "cover",
+                                    "offset": {
+                                        "value": 50,
+                                        "type": "percentage"
+                                    }
+                                },
+                                "id": "effects-mv9nzv8w1",
+                                "fill": "both",
+                                "startOffset": {
+                                    "name": "cover",
+                                    "offset": {
+                                        "value": 0,
+                                        "type": "percentage"
+                                    }
+                                },
+                                "namedEffect": {
+                                    "id": "effects-mvdscuot",
+                                    "range": "in",
+                                    "type": "ParallaxScroll",
+                                    "speed": 0.5
+                                },
+                                "type": "ScrubAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "FadeScroll",
+                        "id": "effects-mv9o0irm",
+                        "type": "ScrubAnimation",
+                        "value": {
+                            "variants": [
+                                {
+                                    "value": {
+                                        "endOffset": {
+                                            "name": "cover",
+                                            "offset": {
+                                                "value": 50,
+                                                "type": "percentage"
+                                            }
+                                        },
+                                        "id": "effects-mv9o0iro",
+                                        "fill": "both",
+                                        "startOffset": {
+                                            "name": "cover",
+                                            "offset": {
+                                                "value": 0,
+                                                "type": "percentage"
+                                            }
+                                        },
+                                        "namedEffect": {
+                                            "id": "effects-mv9o0iro1",
+                                            "range": "in",
+                                            "opacity": 0,
+                                            "type": "FadeScroll"
+                                        },
+                                        "type": "ScrubAnimationOptions"
+                                    },
+                                    "conditions": [
+                                        "#variants-majqhh081"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "type": "EffectsList",
+                "id": "effects-mv9dqmsl"
+            },
+            "measurements": {
+                "x": 833,
+                "y": 614.03125,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq6cvw1",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9nzv94",
+                                    "type": "Scrub",
+                                    "effect": "#effects-mv9nzv8v"
+                                }
+                            ],
+                            "id": "reactions-mv9dqmt12"
+                        },
+                        "conditions": [
+                            "#variants-mv9dqmsk"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "id": "reactions-mv9o0irv",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9o0iru",
+                                    "type": "Scrub",
+                                    "effect": "#effects-mv9o0irm"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-majqhh081",
+                            "#variants-mv9dqmsk"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9dqmsj",
+                        "id": "variants-mv9dqmsk",
+                        "type": "Trigger",
+                        "trigger": "view-progress"
+                    }
+                ],
+                "id": "triggers-mv9dqmt3"
+            }
+        },
+        "comp-mv9dqmt31": {
+            "effects": {
+                "id": "effects-mvduv3kp",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "FoldIn",
+                        "id": "effects-mvduv3kk",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 1200,
+                                "delay": 0,
+                                "id": "effects-mvduv3kk2",
+                                "easing": "backOut",
+                                "fill": "backwards",
+                                "namedEffect": {
+                                    "direction": "top",
+                                    "id": "effects-mvduv3ks",
+                                    "type": "FoldIn",
+                                    "initialRotate": 90
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ]
+            },
+            "measurements": {
+                "x": 833,
+                "y": 921.046875,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq6cvw2",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9dqmt72",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9dvlsn",
+                                    "type": "ToggleState",
+                                    "state": "#variants-mv9dqmt4"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9dqmt41"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "id": "reactions-mvduv3kx",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "once": true,
+                                    "effect": "#effects-mvduv3kk",
+                                    "id": "reactions-mvduv3kv",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mvduv3kc"
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "variants": [
+                    {
+                        "value": {
+                            "cssCustomProperties": {
+                                "border-radius": "55px",
+                                "opacity": "0.38"
+                            },
+                            "spx": {
+                                "refWidth": 1280,
+                                "resolverType": "scale"
+                            },
+                            "id": "style-mv9dvk0v",
+                            "type": "wixEditorElements.Image.Style"
+                        },
+                        "conditions": [
+                            "#variants-mv9dqmt4"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "cssCustomProperties": {
+                                "border-radius": "550px"
+                            },
+                            "spx": {
+                                "refWidth": 390,
+                                "resolverType": "scale"
+                            },
+                            "id": "style-mv9dvk27",
+                            "type": "wixEditorElements.Image.Style"
+                        },
+                        "conditions": [
+                            "#variants-mv9dqmt4",
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ]
+            },
+            "transformations": {
+                "variants": [
+                    {
+                        "value": {
+                            "type": "TransformData",
+                            "skew": {
+                                "x": -7,
+                                "y": 0
+                            },
+                            "id": "transformations-mv9e2h0e"
+                        },
+                        "conditions": [
+                            "#variants-mv9e2gzy"
+                        ]
+                    }
+                ]
+            },
+            "transitions": {
+                "default": {
+                    "duration": 0.3,
+                    "timing-function": "ease-in-out",
+                    "id": "transitions-mv9e2h0k",
+                    "type": "TransitionData"
+                }
+            },
+            "triggers": {
+                "id": "triggers-mv9dqmtu",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9dqmt31",
+                        "id": "variants-mv9dqmt41",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    },
+                    {
+                        "params": {
+                            "threshold": 0.15
+                        },
+                        "componentId": "comp-mv9dqmt31",
+                        "id": "variants-mvduv3kc",
+                        "type": "Trigger",
+                        "trigger": "viewport-enter"
+                    }
+                ]
+            },
+            "states": {
+                "id": "states-mv9dqmtj"
+            }
+        },
+        "comp-mv9dqmwc": {
+            "measurements": {
+                "x": 833,
+                "y": 1228.0625,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq6cvx3",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        }
+    }
+}

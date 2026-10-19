@@ -1,0 +1,21 @@
+{
+  "name": "wix-exported-site",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@4.17.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @site/site-app run dev",
+    "build": "yarn workspace @site/site-app run build",
+    "lint": "origami-lint"
+  },
+  "devDependencies": {
+    "@wix/origami-cli-commands": "^2.0.0",
+    "@wix/origami-lint": "^1.0.0"
+  },
+  "resolutions": {
+    "debug": "4.4.3"
+  }
+}

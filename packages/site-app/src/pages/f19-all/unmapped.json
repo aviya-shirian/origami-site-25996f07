@@ -1,0 +1,774 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                },
+                "components": {
+                    "components-mv9de7m21": {
+                        "target": "components-mv9de7m21"
+                    }
+                }
+            },
+            "applications": {
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.Image": [
+                        "comp-mv9de7fk",
+                        "comp-mv9de7ib",
+                        "comp-mv9de7j3",
+                        "comp-mv9de7jl1",
+                        "comp-mv9de7k9",
+                        "comp-mv9de7kc1",
+                        "comp-mv9de7ko",
+                        "comp-mv9de7l2",
+                        "comp-mv9de7la1",
+                        "components-mv9de7ln2",
+                        "comp-mv9de7m3",
+                        "comp-mv9de7mf"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AAMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQQDAQABAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgACAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "d1nfa": {
+            "behaviors": {
+                "type": "ObsoleteBehaviorsList",
+                "items": "[]"
+            },
+            "style": {
+                "variants": [],
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "properties": {
+                            "alpha-bg": "1",
+                            "bg": "transparent"
+                        },
+                        "propertiesSource": {
+                            "alpha-bg": "value",
+                            "bg": "value"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "mobile.core.components.Page",
+                    "pageId": "",
+                    "spx": {
+                        "refWidth": 1280,
+                        "resolverType": "scale"
+                    },
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.page.ResponsivePageWithColorBG"
+                }
+            }
+        },
+        "comp-mv9de7fk": {
+            "effects": {
+                "id": "effects-mv9de7fv",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "FloatIn",
+                        "id": "effects-mv9de7fv1",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 1200,
+                                "delay": 200,
+                                "id": "effects-mv9de7fv3",
+                                "fill": "backwards",
+                                "namedEffect": {
+                                    "id": "effects-mv9de7fv4",
+                                    "type": "FloatIn",
+                                    "direction": "bottom"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ]
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9de7gv2",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "once": true,
+                                    "effect": "#effects-mv9de7fv1",
+                                    "id": "reactions-mv9de7gv3",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9de7fl"
+                        ]
+                    }
+                ]
+            },
+            "transitions": {
+                "variants": [
+                    {
+                        "value": {
+                            "duration": 0.3,
+                            "timing-function": "ease",
+                            "id": "transitions-mv9de7hg3",
+                            "type": "TransitionData"
+                        },
+                        "conditions": [
+                            "#variants-mv9de7fl1"
+                        ]
+                    }
+                ],
+                "default": {
+                    "duration": 0.3,
+                    "timing-function": "ease",
+                    "id": "transitions-mv9de7hg1",
+                    "type": "TransitionData"
+                }
+            },
+            "triggers": {
+                "id": "triggers-mv9de7hu",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "params": {
+                            "threshold": 0.15
+                        },
+                        "componentId": "comp-mv9de7fk",
+                        "id": "variants-mv9de7fl",
+                        "type": "Trigger",
+                        "trigger": "viewport-enter"
+                    },
+                    {
+                        "componentId": "comp-mv9de7fk",
+                        "id": "variants-mv9de7fl1",
+                        "type": "Trigger",
+                        "trigger": "hover"
+                    }
+                ]
+            }
+        },
+        "comp-mv9de7j3": {
+            "effects": {
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "ParallaxScroll",
+                        "id": "effects-mv9de7j44",
+                        "type": "ScrubAnimation",
+                        "value": {
+                            "variants": [
+                                {
+                                    "value": {
+                                        "endOffset": {
+                                            "offset": {
+                                                "type": "percentage",
+                                                "value": 100
+                                            },
+                                            "name": "cover"
+                                        },
+                                        "id": "effects-mv9de7j49",
+                                        "fill": "both",
+                                        "startOffset": {
+                                            "name": "cover",
+                                            "offset": {
+                                                "type": "percentage",
+                                                "value": 0
+                                            }
+                                        },
+                                        "namedEffect": {
+                                            "id": "effects-mv9de7j410",
+                                            "range": "continuous",
+                                            "type": "ParallaxScroll",
+                                            "speed": 0.2
+                                        },
+                                        "type": "ScrubAnimationOptions"
+                                    },
+                                    "conditions": [
+                                        "#variants-majqhh081"
+                                    ]
+                                }
+                            ],
+                            "default": {
+                                "endOffset": {
+                                    "name": "cover",
+                                    "offset": {
+                                        "type": "percentage",
+                                        "value": 100
+                                    }
+                                },
+                                "id": "effects-mv9de7j46",
+                                "fill": "both",
+                                "startOffset": {
+                                    "name": "cover",
+                                    "offset": {
+                                        "value": 0,
+                                        "type": "percentage"
+                                    }
+                                },
+                                "namedEffect": {
+                                    "direction": "right",
+                                    "id": "effects-mv9de7j47",
+                                    "startFromOffScreen": false,
+                                    "range": "continuous",
+                                    "type": "PanScroll",
+                                    "distance": {
+                                        "type": "px",
+                                        "value": 400
+                                    }
+                                },
+                                "type": "ScrubAnimationOptions"
+                            }
+                        }
+                    }
+                ],
+                "id": "effects-mv9de7j43"
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "type": "Scrub",
+                                    "effect": "#effects-mv9de7j44",
+                                    "id": "reactions-mv9de7jj3"
+                                }
+                            ],
+                            "id": "reactions-mv9de7jj2"
+                        },
+                        "conditions": [
+                            "#variants-mv9de7j4"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9de7j44",
+                                    "type": "Scrub",
+                                    "id": "reactions-mv9de7jj6"
+                                }
+                            ],
+                            "type": "Reactions",
+                            "id": "reactions-mv9de7jj5"
+                        },
+                        "conditions": [
+                            "#variants-majqhh081",
+                            "#variants-mv9de7j4"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9de7j3",
+                        "id": "variants-mv9de7j4",
+                        "type": "Trigger",
+                        "trigger": "view-progress"
+                    }
+                ],
+                "id": "triggers-mv9de7jl"
+            }
+        },
+        "comp-mv9de7jl1": {
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9de7jo3",
+                                    "state": "#variants-mv9de7jm",
+                                    "type": "AddState"
+                                }
+                            ],
+                            "id": "reactions-mv9de7jo2"
+                        },
+                        "conditions": [
+                            "#variants-mv9de7jm1"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "RemoveAllStates",
+                                    "id": "reactions-mv9de7jo7"
+                                }
+                            ],
+                            "id": "reactions-mv9de7jo6",
+                            "type": "Reactions"
+                        },
+                        "conditions": [
+                            "#variants-mv9de7jo5"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "id": "triggers-mv9de7k8",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9de7jl1",
+                        "id": "variants-mv9de7jm1",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ]
+            },
+            "states": {
+                "id": "states-mv9de7jz"
+            }
+        },
+        "comp-mv9de7k9": {
+            "triggers": {
+                "values": [
+                    {
+                        "componentId": "comp-mv9de7k9",
+                        "id": "variants-mv9de7jo5",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ],
+                "id": "triggers-mv9de7kc",
+                "type": "Triggers"
+            }
+        },
+        "comp-mv9de7ko": {
+            "effects": {
+                "id": "effects-mv9de7kp3",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "Spin",
+                        "id": "effects-mv9de7kp4",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 600,
+                                "id": "effects-mv9de7kp6",
+                                "namedEffect": {
+                                    "direction": "clockwise",
+                                    "id": "effects-mv9de7kp7",
+                                    "power": "soft",
+                                    "type": "Spin"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ]
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9de7kw2",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "type": "TogglePlay",
+                                    "effect": "#effects-mv9de7kp4",
+                                    "id": "reactions-mv9de7kw3"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9de7kp"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9de7ko",
+                        "id": "variants-mv9de7kp",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ],
+                "id": "triggers-mv9de7l1"
+            }
+        },
+        "comp-mv9de7l2": {
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9de7l52",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9de7l53",
+                                    "state": "#variants-mv9de7l3",
+                                    "type": "AddState"
+                                },
+                                {
+                                    "id": "reactions-mv9de7l54",
+                                    "state": "#variants-mv9de7l31",
+                                    "type": "RemoveState"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9de7l32"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "values": [
+                                {
+                                    "id": "reactions-mv9de7l57",
+                                    "state": "#variants-mv9de7l3",
+                                    "type": "RemoveState"
+                                }
+                            ],
+                            "id": "reactions-mv9de7l56",
+                            "type": "Reactions"
+                        },
+                        "conditions": [
+                            "#variants-mv9de7l33"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9de7l2",
+                        "id": "variants-mv9de7l32",
+                        "type": "Trigger",
+                        "trigger": "mouse-in"
+                    },
+                    {
+                        "componentId": "comp-mv9de7l2",
+                        "id": "variants-mv9de7l33",
+                        "type": "Trigger",
+                        "trigger": "mouse-out"
+                    }
+                ],
+                "id": "triggers-mv9de7la"
+            },
+            "states": {
+                "id": "states-mv9de7l9"
+            }
+        },
+        "comp-mv9de7la1": {
+            "effects": {
+                "values": [
+                    {
+                        "name": "Flash",
+                        "id": "effects-mv9de7lc1",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 500,
+                                "id": "effects-mv9de7lc3",
+                                "namedEffect": {
+                                    "id": "effects-mv9de7lc4",
+                                    "type": "Flash"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Flash",
+                        "id": "effects-mv9de7lc5",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 300,
+                                "id": "effects-mv9de7lc7",
+                                "allowReplay": "always",
+                                "namedEffect": {
+                                    "id": "effects-mv9de7lc8",
+                                    "type": "Flash"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ],
+                "id": "effects-mv9de7lc",
+                "type": "EffectsList"
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9de7ll2",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9de7lc1",
+                                    "id": "reactions-mv9de7ll3",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9de7lb"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "id": "reactions-mv9de7ll5",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9de7lc5",
+                                    "id": "reactions-mv9de7ll6",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9de7lb1"
+                        ]
+                    }
+                ]
+            },
+            "transitions": {
+                "variants": [],
+                "default": {
+                    "duration": 1.005,
+                    "timing-function": "ease",
+                    "id": "transitions-mv9de7lm1",
+                    "type": "TransitionData"
+                }
+            },
+            "triggers": {
+                "id": "triggers-mv9de7ln",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9de7la1",
+                        "id": "variants-mv9de7lb",
+                        "type": "Trigger",
+                        "trigger": "tap"
+                    },
+                    {
+                        "params": {
+                            "effect": "#effects-mv9de7ln1"
+                        },
+                        "componentId": "components-mv9de7ln2",
+                        "id": "variants-mv9de7lb1",
+                        "type": "Trigger",
+                        "trigger": "animation-end"
+                    }
+                ]
+            }
+        },
+        "components-mv9de7ln2": {
+            "effects": {
+                "id": "effects-mv9de7lq2",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "FadeIn",
+                        "id": "effects-mv9de7ln1",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [
+                                {
+                                    "value": {
+                                        "duration": 400,
+                                        "id": "effects-mv9de7lq7",
+                                        "allowReplay": "never",
+                                        "namedEffect": {
+                                            "id": "effects-mv9de7lq8",
+                                            "type": "FadeIn"
+                                        },
+                                        "type": "TimeAnimationOptions"
+                                    },
+                                    "conditions": [
+                                        "#variants-majqhh081"
+                                    ]
+                                }
+                            ],
+                            "default": {
+                                "duration": 800,
+                                "id": "effects-mv9de7lq4",
+                                "allowReplay": "never",
+                                "namedEffect": {
+                                    "id": "effects-mv9de7lq5",
+                                    "type": "FadeIn"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rise",
+                        "id": "effects-mv9de7lq9",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 600,
+                                "keyframeEffect": {
+                                    "name": "rise",
+                                    "keyframes": [
+                                        {
+                                            "offset": 0,
+                                            "opacity": 0,
+                                            "transform": "translateY(40px)"
+                                        },
+                                        {
+                                            "offset": 1,
+                                            "opacity": 1,
+                                            "transform": "none"
+                                        }
+                                    ],
+                                    "id": "effects-mv9de7lq12",
+                                    "type": "KeyframeEffect"
+                                },
+                                "id": "effects-mv9de7lq11",
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Confetti",
+                        "id": "effects-mv9de7lq13",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 1200,
+                                "id": "effects-mv9de7lq15",
+                                "type": "TimeAnimationOptions",
+                                "customEffect": {
+                                    "ranges": [
+                                        {
+                                            "step": 1,
+                                            "max": 100,
+                                            "min": 0,
+                                            "name": "intensity"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9de7m12",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9de7ln1",
+                                    "id": "reactions-mv9de7m13",
+                                    "type": "Play"
+                                },
+                                {
+                                    "effect": "#effects-mv9de7lq9",
+                                    "id": "reactions-mv9de7m14",
+                                    "type": "Play"
+                                },
+                                {
+                                    "effect": "#effects-mv9de7lq13",
+                                    "id": "reactions-mv9de7m15",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9de7lp"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "type": "Play",
+                                    "effect": "#effects-mv9de7ln1",
+                                    "id": "reactions-mv9de7m18"
+                                }
+                            ],
+                            "id": "reactions-mv9de7m17"
+                        },
+                        "conditions": [
+                            "#variants-mv9de7lp1"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "id": "triggers-mv9de7m2",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "params": {
+                            "margin": {
+                                "bottom": {
+                                    "type": "percentage",
+                                    "value": 10
+                                },
+                                "top": {
+                                    "type": "px",
+                                    "value": 50
+                                }
+                            }
+                        },
+                        "componentId": "components-mv9de7ln2",
+                        "id": "variants-mv9de7lp",
+                        "type": "Trigger",
+                        "trigger": "viewport-enter"
+                    },
+                    {
+                        "componentId": "components-mv9de7m21",
+                        "id": "variants-mv9de7lp1",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ]
+            }
+        },
+        "comp-mv9de7mf": {
+            "reactions": {
+                "default": {
+                    "id": "reactions-mv9de7mi",
+                    "type": "Reactions"
+                }
+            }
+        }
+    }
+}

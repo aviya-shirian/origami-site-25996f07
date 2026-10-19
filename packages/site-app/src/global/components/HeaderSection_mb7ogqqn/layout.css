@@ -1,0 +1,238 @@
+@layer spx-preamble {
+  :root {
+    --scaling-factor: 100vw;
+    --scrollbar-width: 0px;
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+  }
+
+  @function --spx(--value <number>) returns <length> {
+      result:
+        if(style(--spx-resolver-type: fixed):
+          calc(var(--value) * 1px) ;
+        else:
+          calc(sign(var(--value)) * max(0.5px, abs((var(--value) / var(--spx-ref-width)) * (var(--scaling-factor) - var(--scrollbar-width)))))
+      )
+  }
+}
+
+.comp-mb7ogqqn {
+    --spx-ref-width: 1265;
+    --spx-resolver-type: scale;
+    height: auto;
+    min-width: 0px;
+    min-height: --spx(0);
+    max-width: 99999px;
+    max-height: 99999px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    align-self: stretch;
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    padding-top: --spx(0);
+    padding-bottom: --spx(0);
+    padding-left: --spx(0);
+    padding-right: --spx(0)
+}
+.comp-mdr142kt {
+    --spx-ref-width: 1265;
+    --spx-resolver-type: scale;
+    width: 100%;
+    height: 100%;
+    min-width: 0px;
+    min-height: --spx(0);
+    max-width: 99999px;
+    max-height: 99999px;
+    @origami-target internal-container-content-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0px, 1fr);
+        grid-template-rows: 1fr;
+        row-gap: --spx(0);
+        column-gap: --spx(0);
+        grid-auto-flow: row;
+        grid-auto-rows: min-content;
+        grid-auto-columns: 1fr;
+        padding-top: --spx(0);
+        padding-bottom: --spx(0);
+        padding-left: --spx(0);
+        padding-right: --spx(0);
+        --content-max-width: 99999999999px
+    }
+}
+.comp-mv6dibgr {
+    --spx-ref-width: 1265;
+    --spx-resolver-type: scale;
+    width: 7.79%;
+    aspect-ratio: 1 / 0.617723105852856;
+    max-width: 99999px;
+    max-height: 99999px;
+    visibility: visible;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    align-self: start;
+    justify-self: start;
+    margin-top: --spx(14.53125);
+    margin-bottom: --spx(14.578125);
+    margin-left: --spx(37.688);
+    margin-right: --spx(0)
+}
+.comp-mu1byz6d {
+    --spx-ref-width: 1265;
+    --spx-resolver-type: scale;
+    width: 33.68%;
+    height: auto;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 99999px;
+    max-height: 99999px;
+    visibility: visible;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    align-self: start;
+    justify-self: end;
+    margin-top: --spx(24.828125);
+    margin-bottom: --spx(24.828125);
+    margin-left: --spx(0);
+    margin-right: --spx(14.813)
+}
+.comp-mu1byz6q2 {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    @origami-target internal-container-content-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0px, 1fr);
+        grid-template-rows: minmax(max-content, 100%)
+    }
+}
+.comp-mu1byz6q3 {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    @origami-target internal-container-content-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0px, 1fr);
+        grid-template-rows: minmax(max-content, 100%)
+    }
+}
+.comp-mlj8v94e {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    width: auto;
+    height: auto;
+    min-height: --spx(0);
+    visibility: visible;
+    align-self: stretch;
+    justify-self: stretch;
+    grid-row: 1 / -1;
+    grid-column: 1 / -1
+}
+@media (max-width: 1023px) {
+    .comp-mb7ogqqn {
+        --spx-ref-width: 375;
+        --spx-resolver-type: scale;
+        width: auto;
+        height: auto;
+        min-width: 0px;
+        min-height: --spx(0);
+        max-width: 99999px;
+        max-height: 99999px;
+        visibility: visible
+    }
+    .comp-mdr142kt {
+        --spx-ref-width: 375;
+        --spx-resolver-type: scale;
+        width: 100%;
+        height: 100%;
+        min-width: 0px;
+        min-height: --spx(0);
+        max-width: 99999px;
+        max-height: 99999px;
+        visibility: visible;
+        @origami-target internal-container-content-wrapper {
+            position: relative;
+            display: grid;
+            grid-template-columns: minmax(0px, 1fr);
+            grid-template-rows: 1fr;
+            row-gap: --spx(0);
+            column-gap: --spx(11.538);
+            grid-auto-flow: row;
+            grid-auto-rows: min-content;
+            grid-auto-columns: 1fr;
+            padding-top: --spx(0);
+            padding-bottom: --spx(0);
+            padding-left: --spx(23.077);
+            padding-right: --spx(23.077);
+            --content-max-width: 99999999999px
+        }
+    }
+    .comp-mv6dibgr {
+        --spx-ref-width: 375;
+        --spx-resolver-type: scale;
+        width: 22.1%;
+        aspect-ratio: 1 / 0.6177147523943871;
+        max-width: 99999px;
+        max-height: 99999px;
+        visibility: visible;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        align-self: start;
+        justify-self: start;
+        margin-top: --spx(12.53125);
+        margin-bottom: --spx(12.578125);
+        margin-left: -0.0044089699733946735%;
+        margin-right: 0%
+    }
+    .comp-mu1byz6d {
+        --spx-ref-width: 375;
+        --spx-resolver-type: scale;
+        width: 8.78%;
+        height: auto;
+        min-width: 0px;
+        min-height: 0px;
+        max-width: 99999px;
+        max-height: 99999px;
+        visibility: visible;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        align-self: start;
+        justify-self: end;
+        margin-top: --spx(20.5625);
+        margin-bottom: --spx(20.578125);
+        margin-left: --spx(0);
+        margin-right: --spx(2.889)
+    }
+    .comp-mu1byz6q2 {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        visibility: visible;
+        @origami-target internal-container-content-wrapper {
+            position: relative;
+            display: grid;
+            grid-template-columns: minmax(0px, 1fr);
+            grid-template-rows: minmax(--spx(200), auto);
+            padding-top: --spx(0);
+            padding-bottom: --spx(0);
+            padding-left: --spx(0);
+            padding-right: --spx(0)
+        }
+    }
+    .comp-mu1byz6q3 {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        visibility: visible;
+        @origami-target internal-container-content-wrapper {
+            position: relative;
+            display: grid;
+            grid-template-columns: minmax(0px, 1fr);
+            grid-template-rows: minmax(--spx(100), auto);
+            padding-top: --spx(0);
+            padding-bottom: --spx(0);
+            padding-left: --spx(0);
+            padding-right: --spx(0)
+        }
+    }
+}

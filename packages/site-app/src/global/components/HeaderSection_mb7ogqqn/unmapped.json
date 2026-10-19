@@ -1,0 +1,784 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                },
+                "variables": {
+                    "variables-m28o2bcx": {
+                        "target": "variables-m28o2bcx",
+                        "type": "UnitSizeVar"
+                    },
+                    "variables-mhj5sfwx": {
+                        "target": "variables-mhj5sfwx",
+                        "type": "ColorVar"
+                    },
+                    "variables-mhj5sgrq5": {
+                        "target": "variables-mhj5sgrq5",
+                        "type": "FontVar"
+                    },
+                    "variables-mm3jpihn1": {
+                        "target": "variables-mm3jpihn1",
+                        "type": "TextDecorationLineVar"
+                    },
+                    "variables-mhj5sgrp1": {
+                        "target": "variables-mhj5sgrp1",
+                        "type": "ColorVar"
+                    },
+                    "variables-mm3jpihn4": {
+                        "target": "variables-mm3jpihn4",
+                        "type": "LetterSpacingVar"
+                    },
+                    "variables-mhj5sfwy": {
+                        "target": "variables-mhj5sfwy",
+                        "type": "ColorVar"
+                    }
+                },
+                "data": {
+                    "CUSTOM_MAIN_MENU": {
+                        "target": "CUSTOM_MAIN_MENU",
+                        "type": "Builder.MenuItems"
+                    }
+                }
+            },
+            "applications": {
+                "88110a9d-ba44-450e-bcf9-17058af00b76": {
+                    "wixSystemElements.InternalContainer": [
+                        "comp-mdr142kt",
+                        "comp-mu1byz6q2",
+                        "comp-mu1byz6q3"
+                    ],
+                    "wixSystemElements.Background": [
+                        "comp-mlj8v94e"
+                    ]
+                },
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.SiteLogo": [
+                        "comp-mv6dibgr"
+                    ],
+                    "wixEditorElements.Menu": [
+                        "comp-mu1byz6d"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AgMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQQDAQQBAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgECAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "comp-mb7ogqqn": {
+            "design": {
+                "default": {
+                    "type": "MediaContainerWithDividers",
+                    "background": {
+                        "type": "BackgroundMedia",
+                        "colorOverlay": "",
+                        "colorOverlayOpacity": 1,
+                        "colorLayers": [
+                            {
+                                "fill": {
+                                    "type": "SolidColor",
+                                    "color": "color_11"
+                                },
+                                "opacity": 0,
+                                "type": "SolidColorLayer"
+                            }
+                        ]
+                    }
+                }
+            },
+            "layoutSettings": {
+                "variants": [
+                    {
+                        "value": {
+                            "autoResponsivenessSettings": {
+                                "isSynced": true
+                            },
+                            "type": "LayoutSettings"
+                        },
+                        "conditions": [
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ],
+                "default": {
+                    "autoResponsivenessSettings": {
+                        "lastGroupingsHash": "45c6caa031118ab0a746aa8e01b86a94"
+                    },
+                    "type": "LayoutSettings"
+                }
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 91.8671875,
+                "isFixedPosition": false,
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "naming": {
+                "name": "Header",
+                "type": "naming"
+            },
+            "style": {
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "properties": {
+                            "alpha-bg": "0",
+                            "bg": "color_11"
+                        },
+                        "propertiesSource": {
+                            "alpha-bg": "value",
+                            "bg": "theme"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "responsive.components.HeaderSection",
+                    "pageId": "",
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.area.RectangleArea"
+                }
+            }
+        },
+        "comp-mdr142kt": {
+            "layout": {
+                "default": {
+                    "variableConnections": [
+                        {
+                            "path": "containerLayout/contentMaxWidth/maxWidth",
+                            "variableId": "variables-m28o2bcx"
+                        }
+                    ]
+                },
+                "variants": [
+                    {
+                        "value": {
+                            "variableConnections": [
+                                {
+                                    "path": "containerLayout/contentMaxWidth/maxWidth",
+                                    "variableId": "variables-m28o2bcx"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ]
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 91.8671875,
+                "isFixedPosition": false,
+                "id": "measurements-mezs5jnh",
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mlj8v94e": {
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 91.8671875,
+                "isFixedPosition": false,
+                "id": "measurements-mlj8v95o",
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "style": {
+                "default": {
+                    "variableConnections": [
+                        {
+                            "path": "cssCustomProperties/backgroundColor",
+                            "variableId": "variables-mhj5sfwx"
+                        }
+                    ],
+                    "cssProperties": {},
+                    "id": "style-mlj8v958",
+                    "type": "wixSystemElements.Background.Style"
+                },
+                "variants": []
+            }
+        },
+        "comp-mv6dibgr": {
+            "measurements": {
+                "x": 60.7109375,
+                "y": 12.140625,
+                "height": 61.59375,
+                "isFixedPosition": false,
+                "id": "measurements-mv6dibhb",
+                "type": "MeasurementsData",
+                "width": 99.7109375,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mu1byz6d": {
+            "measurements": {
+                "x": 833.8984375,
+                "y": 24.5625,
+                "height": 40.796875,
+                "isFixedPosition": false,
+                "id": "measurements-mu1byz6h1",
+                "type": "MeasurementsData",
+                "width": 431.1015625,
+                "viewportSize": 1280
+            },
+            "presets": {
+                "variants": [
+                    {
+                        "value": {
+                            "presetName": "hamburgerMenu",
+                            "type": "wixEditorElements.Menu.Presets",
+                            "id": "presets-mu1byz6h3"
+                        },
+                        "conditions": [
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ],
+                "default": {
+                    "presetName": "horizontalScrollNavbar",
+                    "type": "wixEditorElements.Menu.Presets",
+                    "id": "presets-mu1byz6h2"
+                }
+            },
+            "innerElements": {
+                "hamburgerMenu": {
+                    "innerElements": {
+                        "hamburgerCloseButton": {
+                            "innerElements": {
+                                "label": {
+                                    "style": {
+                                        "variants": [
+                                            {
+                                                "value": {
+                                                    "variableConnections": [
+                                                        {
+                                                            "path": "cssProperties/font",
+                                                            "variableId": "variables-mhj5sgrq5"
+                                                        }
+                                                    ],
+                                                    "id": "style-mu1byz6z5",
+                                                    "type": "wixEditorElements.Menu|hamburgerMenu|hamburgerCloseButton|label.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-majqhh081"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "animatedIcon": {
+                                    "style": {
+                                        "default": {
+                                            "id": "style-mu1byz731",
+                                            "type": "wixEditorElements.Menu|hamburgerMenu|hamburgerCloseButton|animatedIcon.Style"
+                                        },
+                                        "variants": [
+                                            {
+                                                "value": {
+                                                    "variableConnections": [
+                                                        {
+                                                            "path": "cssCustomProperties/fill",
+                                                            "variableId": "variables-mhj5sfwy"
+                                                        }
+                                                    ],
+                                                    "id": "style-mu1byz75",
+                                                    "type": "wixEditorElements.Menu|hamburgerMenu|hamburgerCloseButton|animatedIcon.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-majqhh081"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "presets": {
+                                "variants": [],
+                                "default": {
+                                    "type": "wixEditorElements.Menu|hamburgerMenu|hamburgerCloseButton.Presets",
+                                    "presetName": "baseButton",
+                                    "id": "presets-mu1byz6z2"
+                                }
+                            },
+                            "states": {
+                                "type": "States",
+                                "values": [
+                                    {
+                                        "name": "hover",
+                                        "id": "variants-mu29sm6s",
+                                        "pseudoClass": "hover",
+                                        "kind": "native",
+                                        "type": "State"
+                                    },
+                                    {
+                                        "name": "disabled",
+                                        "id": "variants-mu29sphl",
+                                        "pseudoClass": "disabled",
+                                        "kind": "native",
+                                        "type": "State"
+                                    }
+                                ],
+                                "id": "states-mu29smhh"
+                            },
+                            "style": {
+                                "default": {
+                                    "id": "style-mu1byz6r1",
+                                    "type": "wixEditorElements.Menu|hamburgerMenu|hamburgerCloseButton.Style"
+                                },
+                                "variants": [
+                                    {
+                                        "value": {
+                                            "id": "style-mu1byz6w",
+                                            "type": "wixEditorElements.Menu|hamburgerMenu|hamburgerCloseButton.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-majqhh081"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "style": {
+                        "default": {
+                            "id": "style-mu1byz6i3",
+                            "type": "wixEditorElements.Menu|hamburgerMenu.Style"
+                        },
+                        "variants": [
+                            {
+                                "value": {
+                                    "id": "style-mu1byz6n",
+                                    "type": "wixEditorElements.Menu|hamburgerMenu.Style"
+                                },
+                                "conditions": [
+                                    "#variants-majqhh081"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "navbar": {
+                    "innerElements": {
+                        "item": {
+                            "innerElements": {
+                                "itemLabel": {
+                                    "style": {
+                                        "default": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssProperties/textDecorationLine",
+                                                    "variableId": "variables-mm3jpihn1"
+                                                },
+                                                {
+                                                    "path": "cssProperties/color",
+                                                    "variableId": "variables-mhj5sgrp1"
+                                                },
+                                                {
+                                                    "path": "cssProperties/font",
+                                                    "variableId": "variables-mhj5sgrq5"
+                                                },
+                                                {
+                                                    "path": "cssProperties/letterSpacing",
+                                                    "variableId": "variables-mm3jpihn4"
+                                                }
+                                            ],
+                                            "id": "style-mu1c01gq",
+                                            "type": "wixEditorElements.Menu|navbar|item|itemLabel.Style"
+                                        },
+                                        "variants": [
+                                            {
+                                                "value": {
+                                                    "id": "style-mu1bz24f",
+                                                    "type": "wixEditorElements.Menu|navbar|item|itemLabel.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-majqhh081"
+                                                ]
+                                            },
+                                            {
+                                                "value": {
+                                                    "id": "style-mu55w3j9",
+                                                    "type": "wixEditorElements.Menu|navbar|item|itemLabel.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-mu2c3byv"
+                                                ]
+                                            },
+                                            {
+                                                "value": {
+                                                    "id": "style-mu55wg4l",
+                                                    "type": "wixEditorElements.Menu|navbar|item|itemLabel.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-mu2h1k9l"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "states": {
+                                "type": "States",
+                                "values": [
+                                    {
+                                        "name": "hover",
+                                        "id": "variants-mu2c3byv",
+                                        "pseudoClass": "hover",
+                                        "kind": "native",
+                                        "type": "State"
+                                    },
+                                    {
+                                        "name": "selected",
+                                        "id": "variants-mu2h1k9l",
+                                        "kind": "functional",
+                                        "type": "State"
+                                    }
+                                ],
+                                "id": "states-mu2c3c63"
+                            },
+                            "style": {
+                                "default": {
+                                    "variableConnections": [
+                                        {
+                                            "path": "cssProperties/font",
+                                            "variableId": "variables-mhj5sgrq5"
+                                        }
+                                    ],
+                                    "id": "style-mu1byz7f3",
+                                    "type": "wixEditorElements.Menu|navbar|item.Style"
+                                },
+                                "variants": [
+                                    {
+                                        "value": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssProperties/font",
+                                                    "variableId": "variables-mhj5sgrq5"
+                                                }
+                                            ],
+                                            "id": "style-mu1byz7k",
+                                            "type": "wixEditorElements.Menu|navbar|item.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-majqhh081"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "dropdown": {
+                            "innerElements": {
+                                "item": {
+                                    "style": {
+                                        "default": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssProperties/font",
+                                                    "variableId": "variables-mhj5sgrq5"
+                                                }
+                                            ],
+                                            "id": "style-mu1byz7u3",
+                                            "type": "wixEditorElements.Menu|navbar|dropdown|item.Style"
+                                        },
+                                        "variants": [
+                                            {
+                                                "value": {
+                                                    "variableConnections": [
+                                                        {
+                                                            "path": "cssProperties/font",
+                                                            "variableId": "variables-mhj5sgrq5"
+                                                        }
+                                                    ],
+                                                    "id": "style-mu1byz7x",
+                                                    "type": "wixEditorElements.Menu|navbar|dropdown|item.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-majqhh081"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "subItem": {
+                                    "style": {
+                                        "default": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssProperties/font",
+                                                    "variableId": "variables-mhj5sgrq5"
+                                                }
+                                            ],
+                                            "id": "style-mu1byz811",
+                                            "type": "wixEditorElements.Menu|navbar|dropdown|subItem.Style"
+                                        },
+                                        "variants": [
+                                            {
+                                                "value": {
+                                                    "id": "style-mu1byz85",
+                                                    "type": "wixEditorElements.Menu|navbar|dropdown|subItem.Style"
+                                                },
+                                                "conditions": [
+                                                    "#variants-majqhh081"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "style": {
+                                "default": {
+                                    "id": "style-mu1byz7o1",
+                                    "type": "wixEditorElements.Menu|navbar|dropdown.Style"
+                                },
+                                "variants": [
+                                    {
+                                        "value": {
+                                            "id": "style-mu1byz7r",
+                                            "type": "wixEditorElements.Menu|navbar|dropdown.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-majqhh081"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "scrollButton": {
+                            "style": {
+                                "default": {
+                                    "variableConnections": [
+                                        {
+                                            "path": "cssProperties/backgroundColor",
+                                            "variableId": "variables-mhj5sfwx"
+                                        },
+                                        {
+                                            "path": "cssCustomProperties/scroll-button-icon-color",
+                                            "variableId": "variables-mhj5sfwy"
+                                        }
+                                    ],
+                                    "id": "style-mu1byz894",
+                                    "type": "wixEditorElements.Menu|navbar|scrollButton.Style"
+                                },
+                                "variants": [
+                                    {
+                                        "value": {
+                                            "id": "style-mu1byz8c",
+                                            "type": "wixEditorElements.Menu|navbar|scrollButton.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-majqhh081"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "style": {
+                        "default": {
+                            "variableConnections": [
+                                {
+                                    "path": "cssProperties/backgroundColor",
+                                    "variableId": "variables-mhj5sfwx"
+                                }
+                            ],
+                            "id": "style-mu1byz786",
+                            "type": "wixEditorElements.Menu|navbar.Style"
+                        },
+                        "variants": [
+                            {
+                                "value": {
+                                    "id": "style-mu1byz7c",
+                                    "type": "wixEditorElements.Menu|navbar.Style"
+                                },
+                                "conditions": [
+                                    "#variants-majqhh081"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "hamburgerOpenButton": {
+                    "innerElements": {
+                        "animatedIcon": {
+                            "style": {
+                                "variants": [
+                                    {
+                                        "value": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssCustomProperties/fill",
+                                                    "variableId": "variables-mhj5sfwy"
+                                                }
+                                            ],
+                                            "cssCustomProperties": {
+                                                "fill": "var(--wst-base-2-color)",
+                                                "size": "30spx"
+                                            },
+                                            "spx": {
+                                                "refWidth": 390,
+                                                "resolverType": "scale"
+                                            },
+                                            "id": "style-mu1byz8p",
+                                            "type": "wixEditorElements.Menu|hamburgerOpenButton|animatedIcon.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-majqhh081"
+                                        ]
+                                    },
+                                    {
+                                        "value": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssCustomProperties/fill",
+                                                    "variableId": "variables-mhj5sfwy"
+                                                }
+                                            ],
+                                            "cssCustomProperties": {
+                                                "fill": "var(--wst-base-2-color)"
+                                            },
+                                            "spx": {
+                                                "refWidth": 390,
+                                                "resolverType": "scale"
+                                            },
+                                            "id": "style-mu1c6fd3",
+                                            "type": "wixEditorElements.Menu|hamburgerOpenButton|animatedIcon.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-mu1c5yuo",
+                                            "#variants-majqhh081"
+                                        ]
+                                    }
+                                ],
+                                "default": {
+                                    "cssCustomProperties": {
+                                        "size": "36spx",
+                                        "rotation": "0deg",
+                                        "fill": "#31190F"
+                                    },
+                                    "spx": {
+                                        "refWidth": 1280,
+                                        "resolverType": "scale"
+                                    },
+                                    "id": "style-mu1byz8m12",
+                                    "type": "wixEditorElements.Menu|hamburgerOpenButton|animatedIcon.Style"
+                                }
+                            }
+                        },
+                        "label": {
+                            "style": {
+                                "default": {
+                                    "variableConnections": [
+                                        {
+                                            "path": "cssProperties/font",
+                                            "variableId": "variables-mhj5sgrq5"
+                                        }
+                                    ],
+                                    "id": "style-mu1byz8s3",
+                                    "type": "wixEditorElements.Menu|hamburgerOpenButton|label.Style"
+                                },
+                                "variants": [
+                                    {
+                                        "value": {
+                                            "variableConnections": [
+                                                {
+                                                    "path": "cssProperties/font",
+                                                    "variableId": "variables-mhj5sgrq5"
+                                                }
+                                            ],
+                                            "id": "style-mu1byz8v",
+                                            "type": "wixEditorElements.Menu|hamburgerOpenButton|label.Style"
+                                        },
+                                        "conditions": [
+                                            "#variants-majqhh081"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "presets": {
+                        "variants": [],
+                        "default": {
+                            "type": "wixEditorElements.Menu|hamburgerOpenButton.Presets",
+                            "presetName": "baseButton",
+                            "id": "presets-mu1byz8m2"
+                        }
+                    },
+                    "states": {
+                        "type": "States",
+                        "values": [
+                            {
+                                "name": "hover",
+                                "id": "variants-mu1c5yuo",
+                                "pseudoClass": "hover",
+                                "kind": "native",
+                                "type": "State"
+                            }
+                        ],
+                        "id": "states-mu1c5zdu"
+                    },
+                    "style": {
+                        "default": {
+                            "id": "style-mu1byz8f4",
+                            "type": "wixEditorElements.Menu|hamburgerOpenButton.Style"
+                        },
+                        "variants": [
+                            {
+                                "value": {
+                                    "id": "style-mu1byz8j",
+                                    "type": "wixEditorElements.Menu|hamburgerOpenButton.Style"
+                                },
+                                "conditions": [
+                                    "#variants-majqhh081"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "comp-mu1byz6q2": {
+            "measurements": {
+                "x": 825.515625,
+                "y": 71.09375,
+                "height": 518.8125,
+                "isFixedPosition": true,
+                "id": "measurements-mu1byz8z3",
+                "type": "MeasurementsData",
+                "width": 362.390625,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mu1byz6q3": {
+            "measurements": {
+                "x": 825.515625,
+                "y": -163.09375,
+                "height": 68,
+                "isFixedPosition": true,
+                "id": "measurements-mu1byz913",
+                "type": "MeasurementsData",
+                "width": 334.390625,
+                "viewportSize": 1280
+            }
+        }
+    }
+}

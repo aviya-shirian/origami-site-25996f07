@@ -1,0 +1,65 @@
+@layer spx-preamble {
+  :root {
+    --scaling-factor: 100vw;
+    --scrollbar-width: 0px;
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+  }
+
+  @function --spx(--value <number>) returns <length> {
+      result:
+        if(style(--spx-resolver-type: fixed):
+          calc(var(--value) * 1px) ;
+        else:
+          calc(sign(var(--value)) * max(0.5px, abs((var(--value) / var(--spx-ref-width)) * (var(--scaling-factor) - var(--scrollbar-width)))))
+      )
+  }
+}
+
+.xxy5h {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    height: auto;
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: auto;
+    --spx-stopper-max: 9999px;
+    overflow-x: clip;
+    overflow-y: clip
+}
+.comp-mv9de2la {
+    --spx-ref-width: 1280;
+    --spx-resolver-type: scale;
+    width: 31.25%;
+    aspect-ratio: 1 / 0.625;
+    min-width: 0px;
+    min-height: --spx(0);
+    max-width: 99999px;
+    max-height: 99999px;
+    visibility: visible;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    align-self: start;
+    justify-self: end;
+    margin-top: --spx(57.015625);
+    margin-bottom: --spx(35.453125);
+    margin-left: --spx(0);
+    margin-right: --spx(47)
+}
+@media (max-width: 1023px) {
+    .comp-mv9de2la {
+        --spx-ref-width: 390;
+        --spx-resolver-type: scale;
+        width: 87.6923076923077%;
+        aspect-ratio: 1 / 0.625;
+        visibility: visible;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        align-self: start;
+        justify-self: center;
+        margin-top: --spx(24);
+        margin-bottom: --spx(0);
+        margin-left: 6.153846153846154%;
+        margin-right: 6.153846153846154%
+    }
+}

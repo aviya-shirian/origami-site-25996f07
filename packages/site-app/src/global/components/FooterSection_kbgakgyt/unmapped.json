@@ -1,0 +1,247 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                },
+                "variables": {
+                    "variables-m28o2bcx": {
+                        "target": "variables-m28o2bcx",
+                        "type": "UnitSizeVar"
+                    },
+                    "variables-mm3jpihn2": {
+                        "target": "variables-mm3jpihn2",
+                        "type": "TextDecorationLineVar"
+                    },
+                    "variables-mhj5sgrp2": {
+                        "target": "variables-mhj5sgrp2",
+                        "type": "ColorVar"
+                    },
+                    "variables-mhj5sgrq6": {
+                        "target": "variables-mhj5sgrq6",
+                        "type": "FontVar"
+                    },
+                    "variables-mm3jpihn5": {
+                        "target": "variables-mm3jpihn5",
+                        "type": "LetterSpacingVar"
+                    },
+                    "variables-mhj5sfwx": {
+                        "target": "variables-mhj5sfwx",
+                        "type": "ColorVar"
+                    }
+                }
+            },
+            "applications": {
+                "88110a9d-ba44-450e-bcf9-17058af00b76": {
+                    "wixSystemElements.InternalContainer": [
+                        "comp-mdr13kdg"
+                    ],
+                    "wixSystemElements.Background": [
+                        "comp-mdr17w8k"
+                    ]
+                },
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.WRichText": [
+                        "comp-mu1b192l"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AgMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQQDAQQBAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgECAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "comp-kbgakgyt": {
+            "design": {
+                "variants": [],
+                "default": {
+                    "type": "MediaContainerWithDividers",
+                    "background": {
+                        "type": "BackgroundMedia",
+                        "colorOverlay": "",
+                        "colorOverlayOpacity": 1,
+                        "colorLayers": [
+                            {
+                                "fill": {
+                                    "type": "SolidColor",
+                                    "color": "color_11"
+                                },
+                                "opacity": 1,
+                                "type": "SolidColorLayer"
+                            }
+                        ]
+                    }
+                }
+            },
+            "layoutSettings": {
+                "variants": [
+                    {
+                        "value": {
+                            "autoResponsivenessSettings": {
+                                "isSynced": true
+                            },
+                            "type": "LayoutSettings"
+                        },
+                        "conditions": [
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ],
+                "default": {
+                    "autoResponsivenessSettings": {
+                        "lastGroupingsHash": "94a10163073a4cc19e9a3a5335c1385d"
+                    },
+                    "type": "LayoutSettings"
+                }
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 80.59375,
+                "isFixedPosition": false,
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "style": {
+                "variants": [],
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "propertiesOverride": {},
+                        "properties": {
+                            "alpha-bg": "0",
+                            "bg": "color_11"
+                        },
+                        "propertiesSource": {
+                            "alpha-bg": "value",
+                            "bg": "theme"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "responsive.components.Section",
+                    "pageId": "",
+                    "spx": {
+                        "refWidth": 1280,
+                        "resolverType": "scale"
+                    },
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.area.RectangleArea"
+                }
+            }
+        },
+        "comp-mdr13kdg": {
+            "layout": {
+                "default": {
+                    "variableConnections": [
+                        {
+                            "path": "containerLayout/contentMaxWidth/maxWidth",
+                            "variableId": "variables-m28o2bcx"
+                        }
+                    ]
+                }
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 80.578125,
+                "isFixedPosition": false,
+                "id": "measurements-mezs5jna",
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mdr17w8k": {
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 90,
+                "isFixedPosition": false,
+                "id": "measurements-mezs5jmo",
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "style": {
+                "default": {
+                    "variableConnections": [
+                        {
+                            "path": "cssCustomProperties/backgroundColor",
+                            "variableId": "variables-mhj5sfwx"
+                        }
+                    ],
+                    "cssProperties": {},
+                    "id": "style-mlj8vnw4",
+                    "type": "wixSystemElements.Background.Style"
+                },
+                "variants": []
+            }
+        },
+        "comp-mu1b192l": {
+            "contentRole": {
+                "type": "Field",
+                "fieldRole": "paragraph",
+                "id": "contentRole-mu1b193y"
+            },
+            "measurements": {
+                "x": 405.953125,
+                "y": 29.84375,
+                "height": 18.203125,
+                "isFixedPosition": false,
+                "id": "measurements-mu1b1940",
+                "type": "MeasurementsData",
+                "width": 468.09375,
+                "viewportSize": 1280
+            },
+            "style": {
+                "default": {
+                    "variableConnections": [
+                        {
+                            "path": "cssProperties/textDecorationLine",
+                            "variableId": "variables-mm3jpihn2"
+                        },
+                        {
+                            "path": "cssProperties/color",
+                            "variableId": "variables-mhj5sgrp2"
+                        },
+                        {
+                            "path": "cssProperties/font",
+                            "variableId": "variables-mhj5sgrq6"
+                        },
+                        {
+                            "path": "cssProperties/letterSpacing",
+                            "variableId": "variables-mm3jpihn5"
+                        }
+                    ],
+                    "cssCustomProperties": {},
+                    "id": "style-mu1b1939",
+                    "type": "wixEditorElements.WRichText.Style"
+                },
+                "variants": [
+                    {
+                        "value": {
+                            "id": "style-mu1b193u",
+                            "type": "wixEditorElements.WRichText.Style"
+                        },
+                        "conditions": [
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

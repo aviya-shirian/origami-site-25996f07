@@ -1,0 +1,64 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                }
+            },
+            "applications": {
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.Image": [
+                        "comp-mv9de2la"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AAMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQQDAQABAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgACAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "xxy5h": {
+            "behaviors": {
+                "type": "ObsoleteBehaviorsList",
+                "items": "[]"
+            },
+            "style": {
+                "variants": [],
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "properties": {
+                            "alpha-bg": "1",
+                            "bg": "transparent"
+                        },
+                        "propertiesSource": {
+                            "bg": "value",
+                            "alpha-bg": "value"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "mobile.core.components.Page",
+                    "pageId": "",
+                    "spx": {
+                        "refWidth": 1280,
+                        "resolverType": "scale"
+                    },
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.page.ResponsivePageWithColorBG"
+                }
+            }
+        }
+    }
+}

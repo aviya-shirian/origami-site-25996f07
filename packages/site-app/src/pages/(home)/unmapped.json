@@ -1,0 +1,85 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                }
+            },
+            "applications": {
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.Image": [
+                        "comp-mv9bffax"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AAMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQQDAQIBAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgECAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "c1dmp": {
+            "behaviors": {
+                "type": "ObsoleteBehaviorsList",
+                "items": "[]"
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 342.46875,
+                "isFixedPosition": false,
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "style": {
+                "variants": [],
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "properties": {
+                            "alpha-bg": "1",
+                            "bg": "transparent"
+                        },
+                        "propertiesSource": {
+                            "alpha-bg": "value",
+                            "bg": "value"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "mobile.core.components.Page",
+                    "pageId": "",
+                    "spx": {
+                        "refWidth": 1280,
+                        "resolverType": "scale"
+                    },
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.page.ResponsivePageWithColorBG"
+                }
+            }
+        },
+        "comp-mv9bffax": {
+            "measurements": {
+                "x": 833,
+                "y": 57.015625,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdr40v6",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        }
+    }
+}

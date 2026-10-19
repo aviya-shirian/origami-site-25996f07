@@ -1,0 +1,895 @@
+{
+    "export": {
+        "dependencies": {
+            "references": {
+                "variants": {
+                    "variants-majqhh081": {
+                        "target": "variants-majqhh081",
+                        "type": "BreakpointRange",
+                        "info": {
+                            "min": 0,
+                            "max": 1023,
+                            "canvasSize": 390
+                        }
+                    }
+                }
+            },
+            "applications": {
+                "6a30caff-5dc3-4e4c-ba70-19db988f5830": {
+                    "wixEditorElements.Image": [
+                        "comp-mv9k2fb6",
+                        "comp-mv9k2fdd",
+                        "comp-mv9k2fe7",
+                        "comp-mv9k2feu",
+                        "comp-mv9k2fgq",
+                        "comp-mv9k2fgu",
+                        "comp-mv9k2fh31",
+                        "comp-mv9k2fhj",
+                        "comp-mv9k2fhx",
+                        "comp-mv9k2fia",
+                        "comp-mv9k2fip"
+                    ]
+                }
+            }
+        },
+        "fixerVersions": {
+            "migration_fixer": "AAMEAQIBAQEBAQEBAQICAgECAwIJAQEDAQEBAAIBAAIAAQEBAQEGAQAIAQAAAQMBAQEBAQIAAgIBAAAEAwUBBAEBBQIDAQABAQEBAQEBAQEB",
+            "viewer_fixer": "AQEBAQEBAgEBAgACAwEBAQEBAgIBAQEBAQECAQIBAQEBAQMBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQECAQEBAgEDAQEBAQEBAQEBAQEBAQEBAQEBAgICAQAAAAABAQEAAAAAAAAAAAE=",
+            "type": "FixerVersions"
+        }
+    },
+    "components": {
+        "omgsg": {
+            "behaviors": {
+                "type": "ObsoleteBehaviorsList",
+                "items": "[]"
+            },
+            "measurements": {
+                "x": 0,
+                "y": 0,
+                "height": 3767.15625,
+                "isFixedPosition": false,
+                "type": "MeasurementsData",
+                "width": 1280,
+                "viewportSize": 1280
+            },
+            "style": {
+                "variants": [],
+                "default": {
+                    "type": "ComponentStyle",
+                    "style": {
+                        "properties": {
+                            "alpha-bg": "1",
+                            "bg": "transparent"
+                        },
+                        "propertiesSource": {
+                            "alpha-bg": "value",
+                            "bg": "value"
+                        },
+                        "groups": {}
+                    },
+                    "componentClassName": "mobile.core.components.Page",
+                    "pageId": "",
+                    "spx": {
+                        "refWidth": 1280,
+                        "resolverType": "scale"
+                    },
+                    "compId": "",
+                    "skin": "wysiwyg.viewer.skins.page.ResponsivePageWithColorBG"
+                }
+            }
+        },
+        "comp-mv9k2fb6": {
+            "measurements": {
+                "x": 833,
+                "y": 57.015625,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8q",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mv9k2fdd": {
+            "measurements": {
+                "x": 833,
+                "y": 399.484375,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8q1",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mv9k2fe7": {
+            "effects": {
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "ParallaxScroll",
+                        "id": "effects-mv9k2fe91",
+                        "type": "ScrubAnimation",
+                        "value": {
+                            "variants": [
+                                {
+                                    "value": {
+                                        "endOffset": {
+                                            "name": "cover",
+                                            "offset": {
+                                                "type": "percentage",
+                                                "value": 100
+                                            }
+                                        },
+                                        "id": "effects-mv9k2fe96",
+                                        "fill": "both",
+                                        "startOffset": {
+                                            "name": "cover",
+                                            "offset": {
+                                                "type": "percentage",
+                                                "value": 0
+                                            }
+                                        },
+                                        "namedEffect": {
+                                            "id": "effects-mv9k2fe97",
+                                            "range": "continuous",
+                                            "type": "ParallaxScroll",
+                                            "speed": 0.2
+                                        },
+                                        "type": "ScrubAnimationOptions"
+                                    },
+                                    "conditions": [
+                                        "#variants-majqhh081"
+                                    ]
+                                }
+                            ],
+                            "default": {
+                                "endOffset": {
+                                    "name": "cover",
+                                    "offset": {
+                                        "type": "percentage",
+                                        "value": 100
+                                    }
+                                },
+                                "id": "effects-mv9k2fe93",
+                                "fill": "both",
+                                "startOffset": {
+                                    "name": "cover",
+                                    "offset": {
+                                        "type": "percentage",
+                                        "value": 0
+                                    }
+                                },
+                                "namedEffect": {
+                                    "direction": "right",
+                                    "id": "effects-mv9k2fe94",
+                                    "startFromOffScreen": false,
+                                    "range": "continuous",
+                                    "type": "PanScroll",
+                                    "distance": {
+                                        "type": "px",
+                                        "value": 400
+                                    }
+                                },
+                                "type": "ScrubAnimationOptions"
+                            }
+                        }
+                    }
+                ],
+                "id": "effects-mv9k2fe9"
+            },
+            "measurements": {
+                "x": 833,
+                "y": 741.953125,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8q2",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9k2fe91",
+                                    "type": "Scrub",
+                                    "id": "reactions-mv9k2fer3"
+                                }
+                            ],
+                            "id": "reactions-mv9k2fer2"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fe8"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9k2fe91",
+                                    "type": "Scrub",
+                                    "id": "reactions-mv9k2fer6"
+                                }
+                            ],
+                            "id": "reactions-mv9k2fer5"
+                        },
+                        "conditions": [
+                            "#variants-majqhh081",
+                            "#variants-mv9k2fe8"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9k2fe7",
+                        "id": "variants-mv9k2fe8",
+                        "type": "Trigger",
+                        "trigger": "view-progress"
+                    }
+                ],
+                "id": "triggers-mv9k2fet"
+            }
+        },
+        "comp-mv9k2feu": {
+            "measurements": {
+                "x": 833,
+                "y": 1084.421875,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8r",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9k2fey2",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "type": "AddState",
+                                    "id": "reactions-mv9k2fey3",
+                                    "state": "#variants-mv9k2fev"
+                                },
+                                {
+                                    "id": "reactions-mv9k2fey4",
+                                    "state": "#variants-mv9k2fev",
+                                    "type": "ToggleState"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fev2"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "id": "reactions-mv9k2fey7",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9k2fey8",
+                                    "type": "RemoveAllStates"
+                                },
+                                {
+                                    "state": "#variants-mv9k2fev1",
+                                    "id": "reactions-mv9k2fey9",
+                                    "type": "ToggleState",
+                                    "presetKey": "skew"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fey6"
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "variants": [
+                    {
+                        "value": {
+                            "cssCustomProperties": {
+                                "border-radius": "55px"
+                            },
+                            "spx": {
+                                "refWidth": 1280,
+                                "resolverType": "scale"
+                            },
+                            "id": "style-mv9k2ffj2",
+                            "type": "wixEditorElements.Image.Style"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fev"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "cssCustomProperties": {
+                                "border-radius": "55px"
+                            },
+                            "spx": {
+                                "resolverType": "scale",
+                                "refWidth": 390
+                            },
+                            "id": "style-mv9k2ffj4",
+                            "type": "wixEditorElements.Image.Style"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fev",
+                            "#variants-majqhh081"
+                        ]
+                    }
+                ]
+            },
+            "transformations": {
+                "variants": [
+                    {
+                        "value": {
+                            "skew": {
+                                "x": -7,
+                                "y": 0
+                            },
+                            "scale": {
+                                "x": 1,
+                                "y": 1
+                            },
+                            "rotate": 0,
+                            "id": "transformations-mv9k2ffw3",
+                            "translate": {
+                                "x": {
+                                    "type": "px",
+                                    "value": 0
+                                },
+                                "y": {
+                                    "type": "px",
+                                    "value": 0
+                                }
+                            },
+                            "opacity": 1,
+                            "type": "TransformData"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fev1"
+                        ]
+                    }
+                ],
+                "default": {
+                    "skew": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "rotate": 0,
+                    "id": "transformations-mv9k2ffw1",
+                    "translate": {
+                        "x": {
+                            "type": "px",
+                            "value": 0
+                        },
+                        "y": {
+                            "type": "px",
+                            "value": 0
+                        }
+                    },
+                    "opacity": 1,
+                    "type": "TransformData"
+                }
+            },
+            "transitions": {
+                "variants": [
+                    {
+                        "value": {
+                            "duration": 0.3,
+                            "timing-function": "ease-in-out",
+                            "id": "transitions-mv9k2fgc3",
+                            "type": "TransitionData"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fev1"
+                        ]
+                    }
+                ],
+                "default": {
+                    "duration": 0.3,
+                    "timing-function": "ease-in-out",
+                    "id": "transitions-mv9k2fgc1",
+                    "type": "TransitionData"
+                }
+            },
+            "triggers": {
+                "values": [
+                    {
+                        "componentId": "comp-mv9k2feu",
+                        "id": "variants-mv9k2fev2",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ],
+                "id": "triggers-mv9k2fgo",
+                "type": "Triggers"
+            },
+            "states": {
+                "id": "states-mv9k2ff9"
+            }
+        },
+        "comp-mv9k2fgq": {
+            "measurements": {
+                "x": 833,
+                "y": 1426.890625,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8r1",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "triggers": {
+                "id": "triggers-mv9k2fgt",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9k2fgq",
+                        "id": "variants-mv9k2fey6",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ]
+            }
+        },
+        "comp-mv9k2fgu": {
+            "measurements": {
+                "x": 833,
+                "y": 1769.359375,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8r2",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        },
+        "comp-mv9k2fh31": {
+            "effects": {
+                "id": "effects-mv9k2fh5",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "Spin",
+                        "id": "effects-mv9k2fh51",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 600,
+                                "id": "effects-mv9k2fh53",
+                                "namedEffect": {
+                                    "direction": "clockwise",
+                                    "id": "effects-mv9k2fh54",
+                                    "power": "soft",
+                                    "type": "Spin"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ]
+            },
+            "measurements": {
+                "x": 833,
+                "y": 2111.828125,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8r3",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9k2fhd2",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9k2fh51",
+                                    "id": "reactions-mv9k2fhd3",
+                                    "type": "TogglePlay"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fh4"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "id": "triggers-mv9k2fhi",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9k2fh31",
+                        "id": "variants-mv9k2fh4",
+                        "type": "Trigger",
+                        "trigger": "click"
+                    }
+                ]
+            }
+        },
+        "comp-mv9k2fhj": {
+            "measurements": {
+                "x": 833,
+                "y": 2454.296875,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8r4",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9k2fhn2",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9k2fhn3",
+                                    "state": "#variants-mv9k2fhk",
+                                    "type": "AddState"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fhk1"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "id": "reactions-mv9k2fhn5",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "id": "reactions-mv9k2fhn6",
+                                    "state": "#variants-mv9k2fhk",
+                                    "type": "RemoveState"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fhk2"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "id": "triggers-mv9k2fhw",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9k2fhj",
+                        "id": "variants-mv9k2fhk1",
+                        "type": "Trigger",
+                        "trigger": "mouse-in"
+                    },
+                    {
+                        "componentId": "comp-mv9k2fhj",
+                        "id": "variants-mv9k2fhk2",
+                        "type": "Trigger",
+                        "trigger": "mouse-out"
+                    }
+                ]
+            },
+            "states": {
+                "id": "states-mv9k2fhv"
+            }
+        },
+        "comp-mv9k2fhx": {
+            "effects": {
+                "id": "effects-mv9k2fhz",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "Flash",
+                        "id": "effects-mv9k2fhz1",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 500,
+                                "id": "effects-mv9k2fhz3",
+                                "namedEffect": {
+                                    "id": "effects-mv9k2fhz4",
+                                    "type": "Flash"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Flash",
+                        "id": "effects-mv9k2fhz5",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 300,
+                                "id": "effects-mv9k2fhz7",
+                                "allowReplay": "always",
+                                "namedEffect": {
+                                    "id": "effects-mv9k2fhz8",
+                                    "type": "Flash"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    }
+                ]
+            },
+            "measurements": {
+                "x": 833,
+                "y": 2796.765625,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8r5",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "id": "reactions-mv9k2fi62",
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9k2fhz1",
+                                    "id": "reactions-mv9k2fi63",
+                                    "type": "Play"
+                                }
+                            ]
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fhy"
+                        ]
+                    },
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9k2fhz5",
+                                    "id": "reactions-mv9k2fi67",
+                                    "type": "Play"
+                                }
+                            ],
+                            "id": "reactions-mv9k2fi66"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fi65"
+                        ]
+                    }
+                ]
+            },
+            "transitions": {
+                "variants": [],
+                "default": {
+                    "duration": 1.005,
+                    "timing-function": "ease",
+                    "id": "transitions-mv9k2fi81",
+                    "type": "TransitionData"
+                }
+            },
+            "triggers": {
+                "id": "triggers-mv9k2fi9",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "componentId": "comp-mv9k2fhx",
+                        "id": "variants-mv9k2fhy",
+                        "type": "Trigger",
+                        "trigger": "tap"
+                    }
+                ]
+            }
+        },
+        "comp-mv9k2fia": {
+            "effects": {
+                "id": "effects-mv9k2fib3",
+                "type": "EffectsList",
+                "values": [
+                    {
+                        "name": "FadeIn",
+                        "id": "effects-mv9k2fib4",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [
+                                {
+                                    "value": {
+                                        "duration": 400,
+                                        "id": "effects-mv9k2fib9",
+                                        "allowReplay": "never",
+                                        "namedEffect": {
+                                            "id": "effects-mv9k2fib10",
+                                            "type": "FadeIn"
+                                        },
+                                        "type": "TimeAnimationOptions"
+                                    },
+                                    "conditions": [
+                                        "#variants-majqhh081"
+                                    ]
+                                }
+                            ],
+                            "default": {
+                                "duration": 800,
+                                "id": "effects-mv9k2fib6",
+                                "allowReplay": "never",
+                                "namedEffect": {
+                                    "id": "effects-mv9k2fib7",
+                                    "type": "FadeIn"
+                                },
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rise",
+                        "id": "effects-mv9k2fib11",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 600,
+                                "keyframeEffect": {
+                                    "name": "rise",
+                                    "keyframes": [
+                                        {
+                                            "offset": 0,
+                                            "opacity": 0,
+                                            "transform": "translateY(40px)"
+                                        },
+                                        {
+                                            "offset": 1,
+                                            "opacity": 1,
+                                            "transform": "none"
+                                        }
+                                    ],
+                                    "id": "effects-mv9k2fic1",
+                                    "type": "KeyframeEffect"
+                                },
+                                "id": "effects-mv9k2fic",
+                                "type": "TimeAnimationOptions"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Confetti",
+                        "id": "effects-mv9k2fic2",
+                        "type": "TimeAnimation",
+                        "value": {
+                            "variants": [],
+                            "default": {
+                                "duration": 1200,
+                                "id": "effects-mv9k2fic4",
+                                "type": "TimeAnimationOptions",
+                                "customEffect": {
+                                    "ranges": [
+                                        {
+                                            "max": 100,
+                                            "min": 0,
+                                            "name": "intensity",
+                                            "step": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "measurements": {
+                "x": 833,
+                "y": 3139.234375,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8s",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            },
+            "reactions": {
+                "variants": [
+                    {
+                        "value": {
+                            "type": "Reactions",
+                            "values": [
+                                {
+                                    "effect": "#effects-mv9k2fib4",
+                                    "id": "reactions-mv9k2fin3",
+                                    "type": "Play"
+                                },
+                                {
+                                    "effect": "#effects-mv9k2fib11",
+                                    "id": "reactions-mv9k2fin4",
+                                    "type": "Play"
+                                },
+                                {
+                                    "effect": "#effects-mv9k2fic2",
+                                    "id": "reactions-mv9k2fin5",
+                                    "type": "Play"
+                                }
+                            ],
+                            "id": "reactions-mv9k2fin2"
+                        },
+                        "conditions": [
+                            "#variants-mv9k2fib"
+                        ]
+                    }
+                ]
+            },
+            "triggers": {
+                "id": "triggers-mv9k2fio",
+                "type": "Triggers",
+                "values": [
+                    {
+                        "params": {
+                            "margin": {
+                                "bottom": {
+                                    "type": "percentage",
+                                    "value": 10
+                                },
+                                "top": {
+                                    "type": "px",
+                                    "value": 50
+                                }
+                            }
+                        },
+                        "componentId": "comp-mv9k2fia",
+                        "id": "variants-mv9k2fib",
+                        "type": "Trigger",
+                        "trigger": "viewport-enter"
+                    },
+                    {
+                        "params": {
+                            "effect": "#effects-mv9k2fib4"
+                        },
+                        "componentId": "comp-mv9k2fia",
+                        "id": "variants-mv9k2fi65",
+                        "type": "Trigger",
+                        "trigger": "animation-end"
+                    }
+                ]
+            }
+        },
+        "comp-mv9k2fip": {
+            "measurements": {
+                "x": 833,
+                "y": 3481.703125,
+                "height": 250,
+                "isFixedPosition": false,
+                "id": "measurements-mvdq9q8s1",
+                "type": "MeasurementsData",
+                "width": 400,
+                "viewportSize": 1280
+            }
+        }
+    }
+}

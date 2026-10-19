@@ -1,0 +1,135 @@
+# Component LLM Context
+
+## About
+
+- Name: Text Effects
+- Archetype: Text
+- Purpose: Text Effect - Shook
+
+## Props
+Source: `definition.ts`
+
+```ts
+props: {
+    isDecorative: prop.boolean(),
+    a11y: prop.object<unknown>(),
+    direction: prop.direction(),
+    text: prop.text({ maxLength: 500 }),
+    link: prop.link(),
+    patternScope: prop.enum('none', 'character', 'word'),
+}
+```
+
+## CSS Defaults
+Source: `defaults.css`
+
+```css
+@import "@wix/editor-react-components/TextEffectsShook/css";
+
+@import "./custom-enums.css";
+
+/* Allowed CSS overrides for @wix/origami/TextEffectsShook; these are not computed styles. */
+/*
+
+.text-effects-shook {
+  text-transform: initial;
+  text-align: initial;
+  font: initial;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  --rotation-pattern-9-enabled: 0;
+  --text-effects-color-3: #CFFFCF;
+  --rotation-pattern-10-enabled: 0;
+  --offset-pattern-7-enabled: 0;
+  --rotation-pattern-3-enabled: 0;
+  --rotation-pattern-11: 0;
+  --rotation-pattern-7: 0;
+  --offset-pattern-2: 0;
+  --is-capitalize: null;
+  --offset-pattern-1-enabled: 0;
+  --rotation-pattern-2-enabled: 0;
+  --offset-pattern-11: 0;
+  --offset-pattern-7: 0;
+  --offset-pattern-8: 0;
+  --stroke: #000000;
+  --rotation-pattern-8-enabled: 0;
+  --offset-pattern-15: 0;
+  --rotation-pattern-15-enabled: 0;
+  --text-effects-color-2: #D2E9FF;
+  --outline-thickness: initial;
+  --rotation-pattern-13-enabled: 0;
+  --rotation-pattern-1-enabled: 0;
+  --offset-pattern-3-enabled: 0;
+  --offset-pattern-12: 0;
+  --rotation-pattern-15: 0;
+  --offset-pattern-4-enabled: 0;
+  --rotation-pattern-12: 0;
+  --pattern-preset: initial;
+  --rotation-pattern-8: 0;
+  --offset-pattern-9: 0;
+  --rotation-pattern-5-enabled: 0;
+  --offset-pattern-6: 0;
+  --offset-pattern-1: 0;
+  --rotation-pattern-4: 0;
+  --rotation-pattern-intensity: initial;
+  --offset-pattern-11-enabled: 0;
+  --offset-pattern-5-enabled: 0;
+  --rotation-pattern-2: 0;
+  --offset-pattern-14: 0;
+  --rotation-pattern-6-enabled: 0;
+  --offset-pattern-5: 0;
+  --rotation-pattern-5: 0;
+  --text-effects-color-5: #FFB9D1;
+  --rotation-pattern-3: 0;
+  --offset-pattern-9-enabled: 0;
+  --text-effects-color-1: #EED2FF;
+  --rotation-pattern-9: 0;
+  --rotation-pattern-14-enabled: 0;
+  --rotation-pattern-11-enabled: 0;
+  --rotation-pattern-12-enabled: 0;
+  --rotation-pattern-10: 0;
+  --offset-pattern-13-enabled: 0;
+  --bevel-angle: 210deg;
+  --offset-pattern-15-enabled: 0;
+  --offset-pattern-14-enabled: 0;
+  --rotation-pattern-1: 0;
+  --text-effects-outline-color: initial;
+  --offset-pattern-13: 0;
+  --rotation-pattern-14: 0;
+  --rotation-pattern-4-enabled: 0;
+  --text-effects-color-4: #FFF8AE;
+  --rotation-pattern-6: 0;
+  --offset-pattern-3: 0;
+  --offset-pattern-10: 0;
+  --offset-pattern-4: 0;
+  --rotation-pattern-7-enabled: 0;
+  --offset-pattern-8-enabled: 0;
+  --offset-pattern-intensity: initial;
+  --offset-pattern-10-enabled: 0;
+  --layer-count: 4;
+  --layer-spacing: 16;
+  --stroke-width: 1px;
+  --rotation-pattern-13: 0;
+  --offset-pattern-12-enabled: 0;
+  --offset-pattern-2-enabled: 0;
+  --offset-pattern-6-enabled: 0;
+}
+
+*/
+```
+
+## Presets
+Source: `TextEffectsShook.tsx`
+
+```ts
+export const PRESET_NAMES = [
+]
+```
+
+## Ref Elements
+Source: `TextEffectsShook.tsx`
+
+```ts
+export const REF_ELEMENTS = [
+]
+```
