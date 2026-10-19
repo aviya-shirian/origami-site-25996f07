@@ -1,6 +1,5 @@
 import { Page } from '@wix/origami-system-components/Page'
 import { Image } from '@origami-wrappers/wixEditorElements/image'
-import { raw } from 'document/bindings'
 import { Interact, Interaction } from '@wix/interact/react'
 import { BlurMouse, Pulse, TrackMouse } from '@wix/motion-presets'
 
@@ -181,7 +180,6 @@ export const Structure = () => (
                 width: 1920,
                 url: 'https://static.wixstatic.com/media/11062b_9c7845bddd334a86a7ee63e6adaabbc4~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_90,enc_auto/Sea%20Turtle%20Swimming.jpg',
             }}
-            states={[raw({ name: 'open', componentId: 'comp-mv9de7jl1', id: 'variants-mv9de7jm', type: 'State' })]}
         />
         <Image
             id="comp-mv9de7k9"
@@ -248,10 +246,6 @@ export const Structure = () => (
                 width: 1920,
                 url: 'https://static.wixstatic.com/media/11062b_9c7845bddd334a86a7ee63e6adaabbc4~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_90,enc_auto/Sea%20Turtle%20Swimming.jpg',
             }}
-            states={[
-                raw({ name: 'open', componentId: 'comp-mv9de7l2', id: 'variants-mv9de7l3', type: 'State' }),
-                raw({ name: 'closed', componentId: 'comp-mv9de7l2', id: 'variants-mv9de7l31', type: 'State' }),
-            ]}
         />
         <Image
             id="comp-mv9de7la1"

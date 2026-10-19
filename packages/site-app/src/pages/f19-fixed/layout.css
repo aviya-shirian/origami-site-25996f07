@@ -16,7 +16,7 @@
   }
 }
 
-.x532b {
+#x532b {
     --spx-ref-width: 1280;
     --spx-resolver-type: scale;
     height: auto;
@@ -27,7 +27,7 @@
     overflow-x: clip;
     overflow-y: clip
 }
-.comp-mv9dqmpg {
+#comp-mv9dqmpg {
     --spx-ref-width: 1280;
     --spx-resolver-type: scale;
     width: 31.25%;
@@ -46,7 +46,7 @@
     margin-left: --spx(0);
     margin-right: --spx(47)
 }
-.comp-mv9dqmrr {
+#comp-mv9dqmrr {
     --spx-ref-width: 1280;
     --spx-resolver-type: scale;
     width: 31.25%;
@@ -65,7 +65,7 @@
     margin-left: --spx(0);
     margin-right: --spx(47)
 }
-.comp-mv9dqmsj {
+#comp-mv9dqmsj {
     --spx-ref-width: 1280;
     --spx-resolver-type: scale;
     width: 31.25%;
@@ -84,7 +84,7 @@
     margin-left: --spx(0);
     margin-right: --spx(47)
 }
-.comp-mv9dqmt31 {
+#comp-mv9dqmt31 {
     --spx-ref-width: 1280;
     --spx-resolver-type: scale;
     width: 31.25%;
@@ -103,7 +103,7 @@
     margin-left: --spx(0);
     margin-right: --spx(47)
 }
-.comp-mv9dqmwc {
+#comp-mv9dqmwc {
     --spx-ref-width: 1280;
     --spx-resolver-type: scale;
     width: 31.25%;
@@ -123,7 +123,7 @@
     margin-right: --spx(47)
 }
 @media (max-width: 1023px) {
-    .comp-mv9dqmpg {
+    #comp-mv9dqmpg {
         --spx-ref-width: 390;
         --spx-resolver-type: scale;
         width: 87.6923076923077%;
@@ -138,7 +138,7 @@
         margin-left: 6.153846153846154%;
         margin-right: 6.153846153846154%
     }
-    .comp-mv9dqmrr {
+    #comp-mv9dqmrr {
         --spx-ref-width: 390;
         --spx-resolver-type: scale;
         width: 87.6923076923077%;
@@ -153,7 +153,7 @@
         margin-left: 6.153846153846154%;
         margin-right: 6.153846153846154%
     }
-    .comp-mv9dqmsj {
+    #comp-mv9dqmsj {
         --spx-ref-width: 390;
         --spx-resolver-type: scale;
         width: 87.6923076923077%;
@@ -168,7 +168,7 @@
         margin-left: 6.153846153846154%;
         margin-right: 6.153846153846154%
     }
-    .comp-mv9dqmt31 {
+    #comp-mv9dqmt31 {
         --spx-ref-width: 390;
         --spx-resolver-type: scale;
         width: 87.6923076923077%;
@@ -183,7 +183,7 @@
         margin-left: 6.153846153846154%;
         margin-right: 6.153846153846154%
     }
-    .comp-mv9dqmwc {
+    #comp-mv9dqmwc {
         --spx-ref-width: 390;
         --spx-resolver-type: scale;
         width: 87.6923076923077%;
